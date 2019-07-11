@@ -458,7 +458,7 @@ class Home extends PureComponent {
                 </div>
               </div> */}
 
-              <div
+              {/* <div
                 className={
                   type === "education"
                     ? "education-sub-menu submenu"
@@ -492,7 +492,7 @@ class Home extends PureComponent {
                     </Link>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
 
             <div className="third-menu-list">
