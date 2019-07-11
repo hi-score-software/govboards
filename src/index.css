@@ -118,7 +118,21 @@ form input::placeholder {
 }
 .user-short {
   display: flex;
+  align-items: center;
 }
+.user-short p{
+  margin-bottom:0;
+  padding:0px 10px;
+}
+
+.user-short .user-photo{
+  width:40px;
+}
+.user-short .down-arrow{
+  width:20px;
+}
+
+
 
 .main-menu_card {
   background: #13761e;
@@ -156,6 +170,10 @@ form input::placeholder {
   display: flex;
   align-items: center;
   margin-top:15px;
+  text-decoration: none;
+}
+.submenu-list a{
+  text-decoration: none;
 }
 .submenu-list h4 {
   font-weight: 600;
