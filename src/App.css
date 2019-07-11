@@ -1,33 +1,233 @@
-.App {
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  padding-top: 51px;
+}
+header h4 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+}
+
+#welcome-screen {
+}
+.logo-con img {
+  width: 212px;
+  padding-top: 81px;
+}
+.welcome-action {
+  margin-top: 200px;
+}
+.welcome-speach h1 {
+  font-size: 52px;
+  line-height: 63px;
+  color: #00820f;
+  margin-top: 200px;
+}
+
+.welcome-btn {
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 26px;
+  text-transform: uppercase;
+  margin-top: 39px;
+  background: #00820f;
+  box-shadow: 5px 10px 25px rgba(0, 130, 15, 0.2);
+  border-radius: 5px;
+  width: 212px;
+  display: block;
+  padding: 19px 0;
+  color: #fff;
+}
+.logo-action {
+  padding-left: 50px;
+}
+
+.people-image {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  right: -10px;
+}
+
+.header-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 120px;
+  background: #ffffff;
+}
+
+.header_logo-with-search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header_logo-with-search img {
+  width: 212px;
+}
+.header_logo-with-search .form-group {
+  width: 100%;
+  display: flex;
+  background: #f2f2f2;
+  border-radius: 3px;
+  padding: 16px 14px;
+  width: 470px;
+  margin-left: 78px;
+  margin-bottom: 0 !important;
+}
+.form-group input {
+  box-sizing: border-box;
+  border: none;
+  background: #f2f2f2;
+  width: 100%;
+}
+.form-group input::placeholder {
+  font-size: 10px;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: #797979;
+}
+.form-group input:focus {
+  outline: none;
+}
+/** Auth pages **/
+.auth-pages {
+  width: 100%;
+  height: 100vh;
+  background-color: #f3f3f3;
+}
+
+form input:focus,
+form textarea:focus {
+  outline: none;
+}
+form input::placeholder {
+  font-size: 18px;
+  color: #c4c4c4;
+}
+
+.main-menu {
+  padding-top: 132px;
+  padding: 100px 0;
+  background-color: rgba(19, 118, 30, 0.1);
+}
+.user-short {
+  display: flex;
+}
+
+.main-menu_card {
+  background: #13761e;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 265px;
+  cursor: pointer;
+}
+.main-menu_card h4 {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 26px;
+  color: #ffffff;
+  margin-top: 28px;
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+/** submenu **/
+.submenu {
+  margin-top: 32px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.submenu-list {
+  height: 120px;
+  left: 105px;
+  top: 549px;
+  background: #ffffff;
+  border-radius: 7px;
+  border-left: 20px solid #13761e;
+  border-radius: 5px;
+  box-sizing: border-box;
   display: flex;
-  flex-direction: column;
   align-items: center;
+}
+.submenu-list h4 {
+  font-weight: 600;
+  font-size: 21px;
+  color: #13761e;
+  padding-left:37px;
+  text-transform: uppercase;
+}
+/* .form-input-group {
+}
+.form_group {
+  width: 100%;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  border: 1px solid #c4c4c4;
+  border-radius: 4px;
+  padding: 14px 20px;
+}
+.form-input-group label {
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #00820f;
+}
+.input {
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: none;
+  background-color: transparent;
 }
 
-.App-link {
-  color: #61dafb;
+.auth-con {
+  margin-top: 90px;
+}
+.auth-con .header {
+  margin-bottom: 57px;
+}
+.auth-con .header h1 {
+  color: #00820f;
+  font-size: 48px;
+  line-height: 59px;
+}
+.auth-con .header p {
+  font-size: 18px;
+  line-height: 22px;
+  color: #00820f;
+  margin-top: 10px;
+}
+.auth-con button {
+  margin-top: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.full_width {
+  width: 100%;
 }
+
+.btn_main {
+  background: #00820f;
+  color: #fff;
+}
+.button {
+  padding: 12px;
+  width: 100%;
+}
+
+* margin and padding styles **/
+/* .mg-top-md {
+  margin-top: 100px;
+}
+.mg-top-xs {
+  margin-top: 20px;
+}
+.mg-top-xxs {
+  margin-top: 10px;
+} */
