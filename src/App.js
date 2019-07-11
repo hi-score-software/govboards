@@ -11,7 +11,7 @@ class App extends Component {
       <Switch>
         <Route exact path="/" component={LoadableRoutes.LandingPage} />
         <Route exact path="/home" component={LoadableRoutes.HomePage} />
-        
+        <Route  path="/dashboard" component={LoadableRoutes.Dashboard} />
       </Switch>
      </BrowserRouter>
     );

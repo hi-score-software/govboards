@@ -51,7 +51,7 @@ class Home extends PureComponent {
                     </svg>
                   </div>
                   <p>Osinbanjo</p>
-                  <div class="down-arrow">
+                  <div className="down-arrow">
                     <svg
                       viewBox="0 0 5 3"
                       fill="none"

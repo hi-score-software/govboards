@@ -1,0 +1,27 @@
+.dashboard-wrapper{
+  display: flex;
+  min-height:100vh;
+  background-color:#fff;
+}
+
+.no-padding-left-right{
+  padding:0px 0px;
+}
+
+.dashboard-content {
+  width: 100%;
+  padding-top: 0px;
+  min-height: 100vh;
+  transition: all 0.3s;
+}
+
+.dashboard-content .header-menu{
+  height:110px;
+}
+.dashboard-content nav{
+  border-bottom: 1px solid #C4C4C4;
+}
+
+.header_logo-with-search .form-group {
+margin-left:0;
+}

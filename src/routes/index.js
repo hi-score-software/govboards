@@ -12,3 +12,8 @@ export const HomePage = Loadable({
   loader: () => import("../containers/Home"),
   loading: loadingSpinner
 })
+
+export const Dashboard = Loadable({
+  loader: () => import("../containers/Dashboard"),
+  loading: loadingSpinner
+})
