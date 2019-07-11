@@ -19,7 +19,7 @@ class Economy extends PureComponent {
       firs: <FirsData />
     };
     return (
-      <section class="dashboard-body-wrapper">
+      <section className="dashboard-body-wrapper">
         <div className="tabs">
           <h1>Economy</h1>
           <div className="tab-container">

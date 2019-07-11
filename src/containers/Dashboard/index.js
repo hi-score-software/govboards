@@ -45,7 +45,7 @@ class Dashboard extends PureComponent {
                         </svg>
                       </div>
                       <p>Admin user</p>
-                      <div class="down-arrow">
+                      <div className="down-arrow">
                         <svg
                           viewBox="0 0 5 3"
                           fill="none"
@@ -63,7 +63,7 @@ class Dashboard extends PureComponent {
               </div>
             </div>
           </nav>
-          <section className>
+          <section className="">
             <div className="container">
               <div className="row">
                 <Switch>

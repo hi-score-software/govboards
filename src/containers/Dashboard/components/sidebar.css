@@ -1,8 +1,10 @@
 .wrapper {
   background-color: #13761e;
-  width: 350px;
+  width: 300px;
   min-height: 100vh;
   box-sizing: border-box;
+  position: fixed;
+  z-index: 9999;
 }
 
 .menu {
@@ -16,7 +18,7 @@
   margin-bottom: 245px;
 }
 .logo-details img {
-    margin-top:32px;
+  margin-top: 32px;
   height: 52px;
 }
 .menu {
@@ -52,19 +54,18 @@
   box-sizing: border-box;
 }
 
-
 .user-short .user-photo {
-    width: 30px;
+  width: 30px;
 }
 
 .user-short p {
-color:#13761E;
+  color: #13761e;
 }
 
 .user-short .down-arrow {
-    width: 17px;
+  width: 17px;
 }
 
 .header-menu {
-    padding:30px;
+  padding: 30px;
 }

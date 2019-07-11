@@ -18,7 +18,7 @@ class Labour extends PureComponent {
       nde: <MacroData />,
     };
     return (
-      <section class="dashboard-body-wrapper">
+      <section className="dashboard-body-wrapper">
         <div className="tabs labour-page">
           <h1>LABOUR AND BUSINESS ENVIRONMENT</h1>
           <div className="tab-container">

@@ -4,9 +4,9 @@ import "./data.styles.css";
 class FirsData extends PureComponent {
   render() {
     return (
-      <div class="col-sm-12 firs">
-        <div class="row">
-          <div class="col-sm-12">
+      <div className="col-sm-12 firs">
+        <div className="row">
+          <div className="col-sm-12">
             <h4>Revenue</h4>
           </div>
           <div className="col-sm-4 ">

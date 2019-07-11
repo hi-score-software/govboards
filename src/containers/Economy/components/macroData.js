@@ -4,9 +4,9 @@ import "./data.styles.css";
 class MacroData extends PureComponent {
   render() {
     return (
-      <div class="col-sm-12 macro">
-        <div class="row">
-          <div class="col-sm-12">
+      <div className="col-sm-12 macro">
+        <div className="row">
+          <div className="col-sm-12">
             <h4>Crude oil</h4>
           </div>
           <div className="col-sm-4 ">
