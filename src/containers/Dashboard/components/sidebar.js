@@ -92,15 +92,43 @@ class Sidebar extends Component {
             </NavLink>
           </li>
           <li>
-            <NavLink exact to={`${path}/admin`} activeClassName="active">
-              <img alt="" className="icon-size" />
-              <span>Admin</span>
+            <NavLink exact to={`${path}/energy`} activeClassName="active">
+            <img
+                src={require("../../../assets/images/energy.svg")}
+                alt=""
+                className="icon-size"
+              />
+              <span>Energy</span>
             </NavLink>
           </li>
           <li>
-            <NavLink exact to={`${path}/delivery`} activeClassName="active">
-              <ion-icon name="bicycle" className="icon-size" />
-              <span>Delivery Unit</span>
+            <NavLink exact to={`${path}/education`} activeClassName="active">
+            <img
+                src={require("../../../assets/images/education.svg")}
+                alt=""
+                className="icon-size"
+              />
+              <span>Education</span>
+            </NavLink>
+          </li>
+          <li>
+            <NavLink exact to={`${path}/agriculture`} activeClassName="active">
+            <img
+                src={require("../../../assets/images/agriculture.svg")}
+                alt=""
+                className="icon-size"
+              />
+              <span>Agriculture</span>
+            </NavLink>
+          </li>
+          <li>
+            <NavLink exact to={`${path}/ict`} activeClassName="active">
+            <img
+                src={require("../../../assets/images/ict.svg")}
+                alt=""
+                className="icon-size"
+              />
+              <span>ict</span>
             </NavLink>
           </li>
         </ul>

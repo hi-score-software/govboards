@@ -17,3 +17,8 @@ export const Dashboard = Loadable({
   loader: () => import("../containers/Dashboard"),
   loading: loadingSpinner
 })
+
+export const Economy = Loadable({
+  loader: () => import("../containers/Economy"),
+  loading: loadingSpinner
+})

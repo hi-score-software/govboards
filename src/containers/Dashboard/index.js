@@ -1,5 +1,5 @@
 import React, { PureComponent } from "react";
-import { Switch, Route, Link } from "react-router-dom";
+import { Switch, Route, Redirect } from "react-router-dom";
 
 import Sidebar from "./components/sidebar";
 import "./dashboard.css";
@@ -8,9 +8,9 @@ import * as LoadableRoutes from "../../routes";
 class Dashboard extends PureComponent {
   render() {
     return (
-      <section class="dashboard-wrapper">
+      <section className="dashboard-wrapper">
         <Sidebar />
-        <section class="dashboard-content">
+        <section className="dashboard-content">
           <nav>
             <div className="container">
               <div className="row">
@@ -63,12 +63,19 @@ class Dashboard extends PureComponent {
               </div>
             </div>
           </nav>
-          <section>
+          <section className>
             <div className="container">
               <div className="row">
-                <div className="col-sm-12">
-                  <h1>Check</h1>
-                </div>
+                <Switch>
+                  <Route
+                    exact
+                    path={`${this.props.match.path}/economy`}
+                    // render={() => (
+                    //   <Redirect to={`${this.props.match.path}/economy`} />
+                    // )}
+                    component={LoadableRoutes.Economy}
+                  />
+                </Switch>
               </div>
             </div>
           </section>

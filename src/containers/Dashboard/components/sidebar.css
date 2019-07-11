@@ -50,3 +50,20 @@
   background-color: rgba(0, 31, 4, 0.25);
   border-left: 10px solid #ac2200;
 }
+
+
+.user-short .user-photo {
+    width: 30px;
+}
+
+.user-short p {
+color:#13761E;
+}
+
+.user-short .down-arrow {
+    width: 17px;
+}
+
+.header-menu {
+    padding:30px;
+}

@@ -1,5 +1,5 @@
 import React, { PureComponent } from "react";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 class Home extends PureComponent {
   state = {
@@ -224,17 +224,17 @@ class Home extends PureComponent {
               >
                 <div className="row">
                   <div className="col-sm-4">
-                    <Link to="/dashboard" className="submenu-list">
+                    <Link to="/dashboard/economy" className="submenu-list">
                       <h4>Financial Data</h4>
                     </Link>
                   </div>
                   <div className="col-sm-4">
-                    <Link to="/dashboard" className="submenu-list">
+                    <Link to="/dashboard/economy" className="submenu-list">
                       <h4>Crude Oil Exchange Rates</h4>
                     </Link>
                   </div>
                   <div className="col-sm-4">
-                    <Link to="/dashboard" className="submenu-list">
+                    <Link to="/dashboard/economy" className="submenu-list">
                       <h4>MacroEconomic Indicators</h4>
                     </Link>
                   </div>
@@ -250,7 +250,7 @@ class Home extends PureComponent {
               >
                 <div className="row justify-content-center">
                   <div className="col-sm-4">
-                    <Link to="/dashboard" className="submenu-list">
+                    <Link to="/dashboard/economy" className="submenu-list">
                       <h4>Financial Data</h4>
                     </Link>
                   </div>
@@ -266,27 +266,27 @@ class Home extends PureComponent {
               >
                 <div className="row">
                   <div className="col-sm-4">
-                    <Link to="/dashboard" className="submenu-list">
+                    <Link to="/dashboard/economy" className="submenu-list">
                       <h4>Financial Data</h4>
                     </Link>
                   </div>
                   <div className="col-sm-4">
-                    <Link to="/dashboard" className="submenu-list">
+                    <Link to="/dashboard/economy" className="submenu-list">
                       <h4>Crude Oil Exchange Rates</h4>
                     </Link>
                   </div>
                   <div className="col-sm-4">
-                    <Link to="/dashboard" className="submenu-list">
+                    <Link to="/dashboard/economy" className="submenu-list">
                       <h4>MacroEconomic Indicators</h4>
                     </Link>
                   </div>
                   <div className="col-sm-4">
-                    <Link to="/dashboard" className="submenu-list">
+                    <Link to="/dashboard/economy" className="submenu-list">
                       <h4>Crude Oil Exchange Rates</h4>
                     </Link>
                   </div>
                   <div className="col-sm-4">
-                    <Link to="/dashboard" className="submenu-list">
+                    <Link to="/dashboard/economy" className="submenu-list">
                       <h4>MacroEconomic Indicators</h4>
                     </Link>
                   </div>
@@ -425,17 +425,17 @@ class Home extends PureComponent {
               >
                 <div className="row">
                   <div className="col-sm-4">
-                    <Link to="/dashboard" className="submenu-list">
+                    <Link to="/dashboard/economy" className="submenu-list">
                       <h4>Financial Data</h4>
                     </Link>
                   </div>
                   <div className="col-sm-4">
-                    <Link to="/dashboard" className="submenu-list">
+                    <Link to="/dashboard/economy" className="submenu-list">
                       <h4>Crude Oil Exchange Rates</h4>
                     </Link>
                   </div>
                   <div className="col-sm-4">
-                    <Link to="/dashboard" className="submenu-list">
+                    <Link to="/dashboard/economy" className="submenu-list">
                       <h4>MacroEconomic Indicators</h4>
                     </Link>
                   </div>
@@ -451,7 +451,7 @@ class Home extends PureComponent {
               >
                 <div className="row justify-content-center">
                   <div className="col-sm-4">
-                    <Link to="/dashboard" className="submenu-list">
+                    <Link to="/dashboard/economy" className="submenu-list">
                       <h4>Financial Data</h4>
                     </Link>
                   </div>
@@ -467,27 +467,27 @@ class Home extends PureComponent {
               >
                 <div className="row">
                   <div className="col-sm-4">
-                    <Link to="/dashboard" className="submenu-list">
+                    <Link to="/dashboard/economy" className="submenu-list">
                       <h4>Financial Data</h4>
                     </Link>
                   </div>
                   <div className="col-sm-4">
-                    <Link to="/dashboard" className="submenu-list">
+                    <Link to="/dashboard/economy" className="submenu-list">
                       <h4>Crude Oil Exchange Rates</h4>
                     </Link>
                   </div>
                   <div className="col-sm-4">
-                    <Link to="/dashboard" className="submenu-list">
+                    <Link to="/dashboard/economy" className="submenu-list">
                       <h4>MacroEconomic Indicators</h4>
                     </Link>
                   </div>
                   <div className="col-sm-4">
-                    <Link to="/dashboard" className="submenu-list">
+                    <Link to="/dashboard/economy" className="submenu-list">
                       <h4>Crude Oil Exchange Rates</h4>
                     </Link>
                   </div>
                   <div className="col-sm-4">
-                    <Link to="/dashboard" className="submenu-list">
+                    <Link to="/dashboard/economy" className="submenu-list">
                       <h4>MacroEconomic Indicators</h4>
                     </Link>
                   </div>
@@ -589,17 +589,17 @@ class Home extends PureComponent {
               >
                 <div className="row">
                   <div className="col-sm-4">
-                    <Link to="/dashboard" className="submenu-list">
+                    <Link to="/dashboard/economy" className="submenu-list">
                       <h4>Financial Data</h4>
                     </Link>
                   </div>
                   <div className="col-sm-4">
-                    <Link to="/dashboard" className="submenu-list">
+                    <Link to="/dashboard/economy" className="submenu-list">
                       <h4>Crude Oil Exchange Rates</h4>
                     </Link>
                   </div>
                   <div className="col-sm-4">
-                    <Link to="/dashboard" className="submenu-list">
+                    <Link to="/dashboard/economy" className="submenu-list">
                       <h4>MacroEconomic Indicators</h4>
                     </Link>
                   </div>
@@ -615,7 +615,7 @@ class Home extends PureComponent {
               >
                 <div className="row justify-content-center">
                   <div className="col-sm-4">
-                    <Link to="/dashboard" className="submenu-list">
+                    <Link to="/dashboard/economy" className="submenu-list">
                       <h4>Financial Data</h4>
                     </Link>
                   </div>
