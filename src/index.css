@@ -167,7 +167,7 @@ form input::placeholder {
 .hidden{
   display:none;
 }
-.second-menu-list{
+.second-menu-list, .third-menu-list{
   margin-top:10px;
 }
 .active-card{
