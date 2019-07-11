@@ -46,8 +46,12 @@
 }
 .employability-status {
   height: 211px;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  border-radius:5px;
+
 }
 .deep-blue {
   background-color: #370ab7;

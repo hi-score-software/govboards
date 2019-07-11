@@ -76,6 +76,105 @@ class FirsData extends PureComponent {
             </div>
           </div>
         </div>
+        <div className="chart-five">
+          <div className="row">
+            <div className="col-sm-12">
+              <div className="chart-card bg-white">
+                <div className="d-flex justify-content-between align-items-start" style={{width: "100%"}}>
+                  <h4>Domestic Production (Monthly growth)</h4>
+                  <img
+                  src={require("../../../assets/charts/Group 52.png")}
+                  className="img-responsive"
+                />
+                </div>
+                <img
+                  src={require("../../../assets/charts/individual income tax.png")}
+                  className="img-responsive"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="chart-four">
+          <div className="row">
+            <div className="col-sm-12">
+              <div className="chart-card bg-white">
+                <div className="d-flex justify-content-between align-items-start" style={{width: "100%"}}>
+                  <h4>Crude Oil Export (Monthly growth)</h4>
+                  <img
+                  src={require("../../../assets/charts/Group 52.png")}
+                  className="img-responsive"
+                />
+                </div>
+                <img
+                  src={require("../../../assets/charts/crude-oil-export.png")}
+                  className="img-responsive"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="chart-five">
+          <div className="row">
+            <div className="col-sm-12">
+              <div className="chart-card bg-white">
+                <div className="d-flex justify-content-between align-items-start" style={{width: "100%"}}>
+                  <h4>Federation Accounts - Revenue (Monthly growth)</h4>
+                  <img
+                  src={require("../../../assets/charts/Group 52.png")}
+                  className="img-responsive"
+                />
+                </div>
+                <img
+                  src={require("../../../assets/charts/individual income tax.png")}
+                  className="img-responsive"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="chart-five">
+          <div className="row">
+            <div className="col-sm-12">
+              <div className="chart-card bg-white">
+                <div className="d-flex justify-content-between align-items-start" style={{width: "100%"}}>
+                  <h4>Gross Oil Revenue (Monthly growth)</h4>
+                  <img
+                  src={require("../../../assets/charts/Group 52.png")}
+                  className="img-responsive"
+                />
+                </div>
+                <img
+                  src={require("../../../assets/charts/individual income tax.png")}
+                  className="img-responsive"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="chart-five">
+          <div className="row">
+            <div className="col-sm-12">
+              <div className="chart-card bg-white">
+                <div className="d-flex justify-content-between align-items-start" style={{width: "100%"}}>
+                  <h4>Gross Oil Revenue (Monthly growth)</h4>
+                  <img
+                  src={require("../../../assets/charts/Group 52.png")}
+                  className="img-responsive"
+                />
+                </div>
+                <img
+                  src={require("../../../assets/charts/gross external reserves monthl-growth.png")}
+                  className="img-responsive"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
     );
   }

@@ -120,19 +120,17 @@ form input::placeholder {
   display: flex;
   align-items: center;
 }
-.user-short p{
-  margin-bottom:0;
-  padding:0px 10px;
+.user-short p {
+  margin-bottom: 0;
+  padding: 0px 10px;
 }
 
-.user-short .user-photo{
-  width:40px;
+.user-short .user-photo {
+  width: 40px;
 }
-.user-short .down-arrow{
-  width:20px;
+.user-short .down-arrow {
+  width: 20px;
 }
-
-
 
 .main-menu_card {
   background: #13761e;
@@ -169,26 +167,27 @@ form input::placeholder {
   box-sizing: border-box;
   display: flex;
   align-items: center;
-  margin-top:15px;
+  margin-top: 15px;
   text-decoration: none;
 }
-.submenu-list a{
+.submenu-list a {
   text-decoration: none;
 }
 .submenu-list h4 {
   font-weight: 600;
   font-size: 21px;
   color: #13761e;
-  padding-left:37px;
+  padding-left: 37px;
   text-transform: uppercase;
 }
-.hidden{
-  display:none;
+.hidden {
+  display: none;
 }
-.second-menu-list, .third-menu-list{
-  margin-top:10px;
+.second-menu-list,
+.third-menu-list {
+  margin-top: 10px;
 }
-.active-card{
+.active-card {
   background-color: #003206;
 }
 /* .form-input-group {
@@ -260,9 +259,29 @@ form input::placeholder {
   margin-top: 10px;
 } */
 
+.dashboard-body-wrapper {
+  width: 100%;
+  background-color: #fff;
+}
 
+.height-601 {
+  height: 601px;
+}
 
-.dashboard-body-wrapper{
-  width:100%;
-  background-color:#fff;
+.chart-one, .chart-two, .chart-three, .chart-four, .chart-five{
+  margin-top:89px;
+}
+
+.chart-card {
+  display: flex;
+  flex-direction: column;
+  padding: 38px;
+  align-items: center;
+}
+
+.chart-card h4 {
+  font-weight: bold !important;
+  font-size: 18px !important;
+  line-height: 22px !important;
+  color: #ac2200 !important;
 }

@@ -82,6 +82,121 @@ class MacroData extends PureComponent {
             </div>
           </div>
         </div>
+        <div className="chart-one">
+          <div className="row">
+            <div class="col-sm-6">
+              <div class="chart-card height-601 bg-white">
+                <h4>Sources of Tax Revenue</h4>
+                <img
+                  src={require("../../../assets/charts/source-of-tax-revenue.png")}
+                  className="img-responsive"
+                />
+                <img
+                  style={{ marginTop: 50 }}
+                  src={require("../../../assets/charts/tax-revenue-information.png")}
+                  className="img-responsive"
+                />
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="chart-card height-601 bg-white">
+                <h4>Sources of Tax Revenue</h4>
+                <img
+                  src={require("../../../assets/charts/corporate income taxes.png")}
+                  className="img-responsive"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="chart-two">
+          <div className="row">
+            <div className="col-sm-12">
+              <div className="chart-card bg-white">
+                <div
+                  className="d-flex justify-content-between align-items-start"
+                  style={{ width: "100%" }}
+                >
+                  <h4>INDIVIDUAL INCOME TASK</h4>
+                  <img
+                    src={require("../../../assets/charts/Group 52.png")}
+                    className="img-responsive"
+                  />
+                </div>
+                <img
+                  src={require("../../../assets/charts/individual income tax.png")}
+                  className="img-responsive"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="chart-three">
+          <div className="row">
+            <div className="col-sm-12">
+              <div className="chart-card bg-white">
+                <div
+                  className="d-flex justify-content-between align-items-start"
+                  style={{ width: "100%" }}
+                >
+                  <h4>Federal Tax Revenue as a Percentage of GDP</h4>
+                  <img
+                    src={require("../../../assets/charts/Group 52.png")}
+                    className="img-responsive"
+                  />
+                </div>
+                <img
+                  src={require("../../../assets/charts/individual income tax.png")}
+                  className="img-responsive"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="chart-four">
+          <div className="row">
+            <div className="col-sm-12">
+              <div className="chart-card bg-white">
+                <div
+                  className="d-flex justify-content-between align-items-start"
+                  style={{ width: "100%" }}
+                >
+                  <h4>Revenue from Excise Tax</h4>
+                  <img
+                    src={require("../../../assets/charts/Group 52.png")}
+                    className="img-responsive"
+                  />
+                </div>
+                <img
+                  src={require("../../../assets/charts/revenue from excise tax.png")}
+                  className="img-responsive"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="chart-five">
+          <div className="row">
+            <div className="col-sm-12">
+              <div className="chart-card bg-white">
+                <div
+                  className="d-flex justify-content-between align-items-start"
+                  style={{ width: "100%" }}
+                >
+                  <h4>Revenue from Petroleum Profit Tax</h4>
+                  <img
+                    src={require("../../../assets/charts/Group 52.png")}
+                    className="img-responsive"
+                  />
+                </div>
+                <img
+                  src={require("../../../assets/charts/individual income tax.png")}
+                  className="img-responsive"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     );
   }
