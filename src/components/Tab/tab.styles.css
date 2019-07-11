@@ -1,0 +1,90 @@
+.tab-styles {
+  padding-left: 40px;
+}
+.Tabs {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  background-color: transparent;
+  height: 59px;
+  padding: 0px;
+}
+
+.tabs_item {
+  color: #c4c4c4;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+  text-align: left;
+  cursor: pointer;
+  height: 59px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  float: left;
+  margin-right: 17.42px;
+}
+
+.tabs_item:first-child {
+  margin-right: 222px;
+}
+
+.tabs_item-active {
+  border-bottom: 5px solid #ac2200;
+  color: #ac2200;
+}
+
+@media (max-width: 560px) {
+  .tabs_item:first-child {
+    margin-right: 10px;
+  }
+  .tabs_item {
+    padding: 0 10px;
+    font-size: 14px;
+  }
+}
+
+.tab-container-body {
+  background-color: #f2f2f2;
+  width: 100%;
+  padding-top: 52px;
+  padding-bottom: 84px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.borderline {
+  width: 100%;
+  background-color: #f3f3f3;
+}
+.mg_tb {
+  margin: 54px 0;
+}
+.mg_top-xs {
+  margin-top: 20px;
+}
+
+.border-green {
+  border: 5px solid #034a0b;
+  border-radius: 5px;
+}
+
+.revenue{
+  padding:30px;
+}
+.revenue h5 {
+  font-weight: 600;
+  font-size: 28px !important;
+  line-height: 34px;
+  text-transform: uppercase;
+  color: #034a0b !important;
+}
+.revenue p {
+  font-weight: 600;
+  font-size: 12px !important;
+  line-height: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #797979 !important;
+}

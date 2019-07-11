@@ -259,3 +259,10 @@ form input::placeholder {
 .mg-top-xxs {
   margin-top: 10px;
 } */
+
+
+
+.dashboard-body-wrapper{
+  width:100%;
+  background-color:#fff;
+}

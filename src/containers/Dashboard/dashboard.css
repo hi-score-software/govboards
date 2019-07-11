@@ -19,14 +19,12 @@
   height:110px;
 }
 .dashboard-content nav{
-  border-bottom: 1px solid #C4C4C4;
+  border-bottom: 1px solid #f3f3f3;
 }
 
 .dashboard-content .header_logo-with-search .form-group {
 margin-left:0;
 }
-
-.tabs{
-  height:218px;
-  background-color:red;
+.user-photo svg{
+  fill: #C4C4C4
 }
