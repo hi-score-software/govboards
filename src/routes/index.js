@@ -22,3 +22,8 @@ export const Economy = Loadable({
   loader: () => import("../containers/Economy"),
   loading: loadingSpinner
 })
+
+export const Labour = Loadable({
+  loader: () => import("../containers/Labour"),
+  loading: loadingSpinner
+})

@@ -1,30 +1,24 @@
 import React, { PureComponent } from "react";
 import "./data.styles.css";
 
-class MacroData extends PureComponent {
+class NdeData extends PureComponent {
   render() {
     return (
-      <div class="col-sm-12 macro">
+      <div class="col-sm-12 ndeData">
         <div class="row">
           <div class="col-sm-12">
-            <h4>Crude oil</h4>
+            <h4>Report on Employability Status of Nigerian Students</h4>
           </div>
-          <div className="col-sm-4 ">
-            <div className="card first-card-color">
+          <div className="col-sm-6 ">
+            <div className="card ndeData-pie">
               <h5>1880.86</h5>
               <p>Domestic Production (BBL/D/1K)</p>
             </div>
           </div>
-          <div className="col-sm-4 ">
-            <div className="card second-card-color">
+          <div className="col-sm-6">
+            <div className="card ndeData-pie">
               <h5>NGN 1.49B</h5>
               <p>Crude Oil Export</p>
-            </div>
-          </div>
-          <div className="col-sm-4 ">
-            <div className="card third-card-color">
-              <h5>$56</h5>
-              <p>Price (US$/Barrel)</p>
             </div>
           </div>
         </div>
@@ -87,4 +81,4 @@ class MacroData extends PureComponent {
   }
 }
 
-export default MacroData;
+export default NdeData;

@@ -1,11 +1,11 @@
-.dashboard-wrapper{
+.dashboard-wrapper {
   display: flex;
-  min-height:100vh;
-  background-color:#fff;
+  min-height: 100vh;
+  background-color: #fff;
 }
 
-.no-padding-left-right{
-  padding:0px 0px;
+.no-padding-left-right {
+  padding: 0px 0px;
 }
 
 .dashboard-content {
@@ -13,18 +13,20 @@
   padding-top: 0px;
   min-height: 100vh;
   transition: all 0.3s;
+  min-height: 100vh;
+  max-height: 100vh;
 }
 
-.dashboard-content .header-menu{
-  height:110px;
+.dashboard-content .header-menu {
+  height: 110px;
 }
-.dashboard-content nav{
+.dashboard-content nav {
   border-bottom: 1px solid #f3f3f3;
 }
 
 .dashboard-content .header_logo-with-search .form-group {
-margin-left:0;
+  margin-left: 0;
 }
-.user-photo svg{
-  fill: #C4C4C4
+.user-photo svg {
+  fill: #c4c4c4;
 }

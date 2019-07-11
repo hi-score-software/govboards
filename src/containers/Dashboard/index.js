@@ -69,11 +69,20 @@ class Dashboard extends PureComponent {
                 <Switch>
                   <Route
                     exact
+                    path={`${this.props.match.path}`}
+                    render={() => (
+                      <Redirect to={`${this.props.match.path}/economy`} />
+                    )}
+                  />
+                  <Route
+                    exact
                     path={`${this.props.match.path}/economy`}
-                    // render={() => (
-                    //   <Redirect to={`${this.props.match.path}/economy`} />
-                    // )}
                     component={LoadableRoutes.Economy}
+                  />
+                  <Route
+                    exact
+                    path={`${this.props.match.path}/labour-business-and-environment`}
+                    component={LoadableRoutes.Labour}
                   />
                 </Switch>
               </div>

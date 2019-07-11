@@ -1,34 +1,33 @@
 import React, { PureComponent } from "react";
 import Tabs from "../../components/Tab";
 
-import MacroData from './components/macroData';
-import FirsData from './components/firsData';
+import MacroData from "./components/ndeData";
 
-import "./economy.css";
 
-class Economy extends PureComponent {
+import "./labour.css";
+
+class Labour extends PureComponent {
   state = {
     tabs: {
-      active: "macro"
-    },
-  }
+      active: "nde"
+    }
+  };
   render() {
     console.log(this.props);
     const content = {
-      macro: <MacroData />,
-      firs: <FirsData />
+      nde: <MacroData />,
     };
     return (
       <section class="dashboard-body-wrapper">
-        <div className="tabs">
-          <h1>Economy</h1>
+        <div className="tabs labour-page">
+          <h1>LABOUR AND BUSINESS ENVIRONMENT</h1>
           <div className="tab-container">
             <Tabs
               active={this.state.tabs.active}
               onChange={active => this.setState({ tabs: { active } })}
             >
-              <div key="macro">MACRO DATA (CBN)</div>
-              <div key="firs">FEDERAL INLAND REVENUE SERVICE</div>
+              <div key="nde">NATIONAL DIRECTORATE OF EMPLOYMENT</div>
+             
             </Tabs>
           </div>
           <div className="tab-container-body">
@@ -48,4 +47,4 @@ class Economy extends PureComponent {
   }
 }
 
-export default Economy;
+export default Labour;

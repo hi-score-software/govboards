@@ -20,22 +20,11 @@
   margin-top: 10px;
 }
 
-.first-card-color {
-  background-color: #0ab7a2;
-}
-
-.second-card-color {
-  background-color: #2d9cdb;
-}
-
-.third-card-color {
-  background-color: #624af2;
-}
-.macro, .firs{
+.ndeData{
   padding-left:0px;
 }
 
-.macro h4, .firs h4 {
+.ndeData h4 {
   font-weight: bold;
   font-size: 18px;
   line-height: 22px;
@@ -46,4 +35,8 @@
 
 .firs p, .macro p{
   text-align: center;
+}
+
+.ndeData-pie{
+  height: 546px;
 }
