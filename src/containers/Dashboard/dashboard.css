@@ -9,13 +9,12 @@
 }
 
 .dashboard-content {
-  width: 80%;
+  width: 100%;
   padding-top: 0px;
   min-height: 100vh;
   transition: all 0.3s;
   min-height: 100vh;
   max-height: 100vh;
-  margin-left: 300px;
 }
 
 .dashboard-content .header-menu {

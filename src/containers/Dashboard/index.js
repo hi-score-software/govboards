@@ -1,7 +1,6 @@
 import React, { PureComponent } from "react";
 import { Switch, Route, Redirect } from "react-router-dom";
 
-import Sidebar from "./components/sidebar";
 import "./dashboard.css";
 import * as LoadableRoutes from "../../routes";
 
@@ -9,7 +8,7 @@ class Dashboard extends PureComponent {
   render() {
     return (
       <section className="dashboard-wrapper">
-        <Sidebar />
+   
         <section className="dashboard-content">
           <nav>
             <div className="container">
@@ -64,7 +63,6 @@ class Dashboard extends PureComponent {
             </div>
           </nav>
           <section className="">
-            <div className="container">
               <div className="row">
                 <Switch>
                   <Route
@@ -86,7 +84,7 @@ class Dashboard extends PureComponent {
                   />
                 </Switch>
               </div>
-            </div>
+            
           </section>
         </section>
       </section>
