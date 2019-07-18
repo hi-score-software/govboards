@@ -273,13 +273,12 @@ form input::placeholder {
     justify-content: center;
     align-items: center;
   }
-  .logo-action{
-    padding-left:0;
+  .logo-action {
+    padding-left: 0;
   }
   .logo-action .logo-con img {
     width: 150px;
     padding-top: 21px;
-
   }
   .people-image {
     width: 100%;
@@ -288,5 +287,42 @@ form input::placeholder {
     top: -517px;
     right: -10px;
     z-index: -1;
+  }
+  .height-601 {
+    min-height: 300px;
+  }
+  .card{
+    height: 130px;
+    padding:15px;
+  }
+  .card h5{
+    font-size:20px;
+  }
+  .card p{
+    font-size: 12px;
+  }
+  .chart-card,
+  .card {
+    margin-bottom: 10px;
+  }
+  .chart-card img {
+    width: 100%;
+    height: auto;
+  }
+  .chart-card {
+    padding-left: 15px;
+    padding-right: 15px;
+    min-height: 300px;
+  }
+
+  .chart-one,
+  .chart-two,
+  .chart-three,
+  .chart-four,
+  .chart-five {
+    margin-top: 0px;
+  }
+  .chart-card h4 {
+    font-size: 12px !important;
   }
 }

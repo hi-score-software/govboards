@@ -22,7 +22,7 @@ class Home extends PureComponent {
                   <img
                     src={require("../../assets/images/logo-one.png")}
                     alt=""
-                    
+
                   />
                   <div className="form-group">
                     <input type="text" placeholder="SEARCH" />
@@ -719,7 +719,7 @@ class Home extends PureComponent {
                             to="/dashboard/economy"
                             className="submenu-list"
                           >
-                            <h4>MacroEconomic Indicators</h4>
+                            <h4>NPOWER</h4>
                           </Link>
                         </div>
                       </div>
