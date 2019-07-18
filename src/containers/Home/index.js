@@ -225,10 +225,7 @@ class Home extends PureComponent {
                 <div className="container">
                   <div className="row">
                     <div className="col-sm-4">
-                      <div
-                        className="main-menu_card economy"
-                        onClick={() => this.showSubMenu("economy")}
-                      >
+                      <div className="main-menu_card economy">
                         <svg
                           width="89"
                           height="73"
@@ -315,11 +312,50 @@ class Home extends PureComponent {
                     : "hidden economy-sub-menu submenu"
                 }
               >
-                <div className="row justify-content-center">
-                  <div className="col-sm-4">
-                    <Link to="/dashboard/economy" className="submenu-list">
-                      <h4>Crude Oil Exchange Rates</h4>
-                    </Link>
+                <div className="container">
+                  <div className="row">
+                    <div className="col-sm-4">
+                      <div className="main-menu_card labour">
+                        <svg
+                          width="69"
+                          height="83"
+                          viewBox="0 0 69 83"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M26.1574 21.6913C25.8288 22.2117 25.5001 22.7595 25.144 23.2799C24.3497 24.5399 23.2815 24.759 21.912 24.129C19.3099 22.8965 16.6805 21.7461 14.0785 20.5683C12.2981 19.7466 11.9694 17.8567 13.3937 16.4872C14.1059 15.8025 15.0371 15.6655 16.0505 16.1311C17.8857 16.9528 19.6934 17.7745 21.5011 18.651C21.9668 18.8701 22.2407 18.8428 22.5694 18.3771C23.7471 16.7337 24.9797 15.1177 26.2122 13.5017C27.883 11.3379 30.1838 10.4614 32.8132 10.6532C33.9362 10.7353 35.0866 11.1462 36.1274 11.6392C38.7294 12.8717 41.2767 14.296 43.8787 15.556C44.7278 15.9668 45.3304 16.4872 45.8508 17.2267C47.0286 18.8154 48.2337 20.3766 49.4663 21.9926C50.5071 21.4448 51.4931 20.897 52.5066 20.3492C53.4652 19.8288 54.3143 20.1027 54.8073 21.0339C56.1494 23.5538 57.4915 26.0463 58.8337 28.5662C59.1623 29.1962 59.0254 29.7987 58.4228 30.1548C54.6156 32.2912 50.8358 34.4002 47.0012 36.5093C46.2069 36.9475 45.4947 36.701 45.0839 35.9615C43.7418 33.5238 42.3997 31.0861 41.0576 28.6484C40.4002 27.4432 40.5646 26.8406 41.7697 26.2107C42.9475 25.5807 44.0979 24.9781 45.3304 24.3207C44.0979 22.8417 42.9749 21.3626 41.6875 19.9931C41.2219 19.5001 40.4276 19.281 39.7976 18.9249C38.8664 18.4319 37.9077 17.9389 36.8395 17.3637C37.0039 18.651 37.1956 19.8014 37.3325 20.9792C38.209 28.1279 39.5785 35.1672 41.1671 42.179C41.5506 43.932 42.3723 45.6301 43.0023 47.3283C43.824 49.5743 44.6457 51.8203 45.5495 54.0388C46.1521 55.4631 45.3304 56.7778 44.0979 57.2435C42.701 57.7639 41.441 57.1887 40.9206 55.737C38.4007 48.7252 35.9083 41.7134 33.3884 34.7015C33.3336 34.5372 33.2514 34.3729 33.1693 34.1537C30.2659 34.9207 27.3626 35.6876 24.4319 36.4819C24.7605 39.4126 25.0892 42.2612 25.4453 45.1097C25.5549 45.9588 25.6644 46.8353 25.774 47.6844C25.9383 48.9717 25.0892 49.9577 23.6649 50.1221C22.4324 50.2864 21.2546 49.4647 21.1177 48.287C20.6521 44.5619 20.2138 40.8095 19.7756 37.0845C19.6934 36.4819 19.6386 35.8519 19.5565 35.2493C19.3647 34.0168 19.9125 33.0581 21.0903 32.5925C23.1445 31.8256 25.1714 31.0587 27.2804 30.2644C26.9517 27.4158 26.6231 24.5946 26.267 21.7461C26.267 21.7187 26.2122 21.6913 26.1574 21.6913Z"
+                            fill="white"
+                          />
+                          <path
+                            d="M0 82.004C0 69.4868 0 56.9969 0 44.4797C4.6289 44.4797 9.23041 44.4797 13.8593 44.4797C13.8593 56.9696 13.8593 69.4594 13.8593 82.004C9.2578 82.004 4.65629 82.004 0 82.004Z"
+                            fill="white"
+                          />
+                          <path
+                            d="M18.3239 82.004C18.3239 71.9519 18.3239 61.9819 18.3239 51.9572C22.9528 51.9572 27.5543 51.9572 32.1832 51.9572C32.1832 61.9545 32.1832 71.9519 32.1832 82.004C27.5817 82.004 22.9801 82.004 18.3239 82.004Z"
+                            fill="white"
+                          />
+                          <path
+                            d="M50.4797 59.1881C50.4797 66.8025 50.4797 74.3895 50.4797 82.0039C45.933 82.0039 41.441 82.0039 36.8943 82.0039C36.8943 74.3895 36.8943 66.8025 36.8943 59.1881C41.441 59.1881 45.9604 59.1881 50.4797 59.1881Z"
+                            fill="white"
+                          />
+                          <path
+                            d="M55.1908 82.004C55.1908 76.8821 55.1908 71.815 55.1908 66.6656C59.7101 66.6656 64.2295 66.6656 68.8036 66.6656C68.8036 71.7602 68.8036 76.8547 68.8036 82.004C64.2843 82.004 59.7923 82.004 55.1908 82.004Z"
+                            fill="white"
+                          />
+                          <path
+                            d="M24.7332 5.50383C24.7332 2.92917 26.8148 0.847534 29.3894 0.847534C31.9641 0.847534 34.0457 2.95656 34.0183 5.53122C33.991 8.07848 31.9367 10.1327 29.3894 10.1601C26.8422 10.1601 24.7332 8.07848 24.7332 5.50383Z"
+                            fill="white"
+                          />
+                        </svg>
+                        <h4>Labour</h4>
+                      </div>
+                    </div>
+                    <div className="col-sm-4">
+                      <Link to="/dashboard/economy" className="submenu-list">
+                        <h4>Crude Oil Exchange Rates</h4>
+                      </Link>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -331,31 +367,56 @@ class Home extends PureComponent {
                     : "hidden economy-sub-menu submenu"
                 }
               >
-                <div className="row">
-                  <div className="col-sm-4">
-                    <Link to="/dashboard/economy" className="submenu-list">
-                      <h4>Financial Data</h4>
-                    </Link>
-                  </div>
-                  <div className="col-sm-4">
-                    <Link to="/dashboard/economy" className="submenu-list">
-                      <h4>Crude Oil Exchange Rates</h4>
-                    </Link>
-                  </div>
-                  <div className="col-sm-4">
-                    <Link to="/dashboard/economy" className="submenu-list">
-                      <h4>MacroEconomic Indicators</h4>
-                    </Link>
-                  </div>
-                  <div className="col-sm-4">
-                    <Link to="/dashboard/economy" className="submenu-list">
-                      <h4>Crude Oil Exchange Rates</h4>
-                    </Link>
-                  </div>
-                  <div className="col-sm-4">
-                    <Link to="/dashboard/economy" className="submenu-list">
-                      <h4>MacroEconomic Indicators</h4>
-                    </Link>
+                <div className="container">
+                  <div className="row">
+                    <div className="col-sm-4">
+                      
+                    </div>
+                    <div className="col-sm-8">
+                      <div className="row">
+                        <div className="col-sm-4">
+                          <Link
+                            to="/dashboard/economy"
+                            className="submenu-list"
+                          >
+                            <h4>TRADERMONI</h4>
+                          </Link>
+                        </div>
+
+                        <div className="col-sm-4">
+                          <Link
+                            to="/dashboard/economy"
+                            className="submenu-list"
+                          >
+                            <h4>MARKETMONI</h4>
+                          </Link>
+                        </div>
+                        <div className="col-sm-4">
+                          <Link
+                            to="/dashboard/economy"
+                            className="submenu-list"
+                          >
+                            <h4>NPOWER</h4>
+                          </Link>
+                        </div>
+                        <div className="col-sm-4">
+                          <Link
+                            to="/dashboard/economy"
+                            className="submenu-list"
+                          >
+                            <h4>HGSF</h4>
+                          </Link>
+                        </div>
+                        <div className="col-sm-4">
+                          <Link
+                            to="/dashboard/economy"
+                            className="submenu-list"
+                          >
+                            <h4>CCT</h4>
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>

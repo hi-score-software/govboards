@@ -11,8 +11,6 @@ header h4 {
   color: #fff;
 }
 
-#welcome-screen {
-}
 .logo-con img {
   width: 212px;
   padding-top: 81px;
@@ -160,7 +158,7 @@ form input::placeholder {
   font-weight: 600;
   font-size: 21px;
   color: #13761e;
-  padding-left:37px;
+  padding-left: 37px;
   text-transform: uppercase;
 }
 /* .form-input-group {
@@ -231,3 +229,4 @@ form input::placeholder {
 .mg-top-xxs {
   margin-top: 10px;
 } */
+

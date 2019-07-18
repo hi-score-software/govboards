@@ -291,3 +291,41 @@ form input::placeholder {
   background-color:#003206;
   padding:67px 0;
 }
+
+@media (max-width: 480px) {
+  .header-menu {
+    height: 60px;
+    padding: 0 20px;
+  }
+  .header_logo-with-search img {
+    width: 100px;
+  }
+  .header_logo-with-search .form-group {
+    display: none;
+  }
+  .user-short .user-photo {
+    width: 20px;
+  }
+  .user-short .down-arrow {
+    width: 15px;
+  }
+  .user-short p {
+    font-size: 16px;
+  }
+  .main-menu{
+    padding-top:50px
+  }
+
+  .main-menu_card{
+    height: 150px;
+    padding:20px;
+    margin-bottom:15px;
+  }
+  .main-menu_card svg{
+    width:50px;
+  }
+  .main-menu_card h4{
+    font-size:16px;
+    margin-top:10px;
+  }
+}
