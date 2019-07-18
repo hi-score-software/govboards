@@ -190,74 +190,7 @@ form input::placeholder {
 .active-card {
   background-color: #003206;
 }
-/* .form-input-group {
-}
-.form_group {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 1px solid #c4c4c4;
-  border-radius: 4px;
-  padding: 14px 20px;
-}
-.form-input-group label {
-  margin-bottom: 5px;
-  font-size: 14px;
-  font-weight: bold;
-  color: #00820f;
-}
-.input {
-  box-sizing: border-box;
-  border-radius: 4px;
-  border: none;
-  background-color: transparent;
-}
 
-.auth-con {
-  margin-top: 90px;
-}
-.auth-con .header {
-  margin-bottom: 57px;
-}
-.auth-con .header h1 {
-  color: #00820f;
-  font-size: 48px;
-  line-height: 59px;
-}
-.auth-con .header p {
-  font-size: 18px;
-  line-height: 22px;
-  color: #00820f;
-  margin-top: 10px;
-}
-.auth-con button {
-  margin-top: 10px;
-}
-
-.full_width {
-  width: 100%;
-}
-
-.btn_main {
-  background: #00820f;
-  color: #fff;
-}
-.button {
-  padding: 12px;
-  width: 100%;
-}
-
-* margin and padding styles **/
-/* .mg-top-md {
-  margin-top: 100px;
-}
-.mg-top-xs {
-  margin-top: 20px;
-}
-.mg-top-xxs {
-  margin-top: 10px;
-} */
 
 .dashboard-body-wrapper {
   width: 100%;
