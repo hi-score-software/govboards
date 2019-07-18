@@ -22,6 +22,7 @@ class Home extends PureComponent {
                   <img
                     src={require("../../assets/images/logo-one.png")}
                     alt=""
+                    
                   />
                   <div className="form-group">
                     <input type="text" placeholder="SEARCH" />

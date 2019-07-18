@@ -191,7 +191,6 @@ form input::placeholder {
   background-color: #003206;
 }
 
-
 .dashboard-body-wrapper {
   width: 100%;
   background-color: #fff;
@@ -201,8 +200,12 @@ form input::placeholder {
   height: 601px;
 }
 
-.chart-one, .chart-two, .chart-three, .chart-four, .chart-five{
-  margin-top:89px;
+.chart-one,
+.chart-two,
+.chart-three,
+.chart-four,
+.chart-five {
+  margin-top: 89px;
 }
 
 .chart-card {
@@ -219,10 +222,9 @@ form input::placeholder {
   color: #ac2200 !important;
 }
 
-
-.submenu{
-  background-color:#003206;
-  padding:67px 0;
+.submenu {
+  background-color: #003206;
+  padding: 67px 0;
 }
 
 @media (max-width: 480px) {
@@ -245,20 +247,46 @@ form input::placeholder {
   .user-short p {
     font-size: 12px;
   }
-  .main-menu{
-    padding-top:30px
+  .main-menu {
+    padding-top: 30px;
   }
 
-  .main-menu_card{
+  .main-menu_card {
     height: 150px;
-    padding:20px;
-    margin-bottom:10px;
+    padding: 20px;
+    margin-bottom: 10px;
   }
-  .main-menu_card svg{
-    width:50px;
+  .main-menu_card svg {
+    width: 50px;
   }
-  .main-menu_card h4{
-    font-size:16px;
-    margin-top:10px;
+  .main-menu_card h4 {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  .welcome-speach h1 {
+    font-size: 40px;
+    line-height: normal;
+    margin-top: 211px;
+    text-align: center;
+  }
+  .welcome-speach {
+    justify-content: center;
+    align-items: center;
+  }
+  .logo-action{
+    padding-left:0;
+  }
+  .logo-action .logo-con img {
+    width: 150px;
+    padding-top: 21px;
+
+  }
+  .people-image {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: -517px;
+    right: -10px;
+    z-index: -1;
   }
 }
