@@ -352,7 +352,7 @@ class Home extends PureComponent {
                       </div>
                     </div>
                     <div className="col-sm-4">
-                      <Link to="/dashboard/economy" className="submenu-list">
+                      <Link to="/dashboard/labour-business-and-environment" className="submenu-list">
                         <h4>National Youth service corp</h4>
                       </Link>
                     </div>
@@ -410,7 +410,7 @@ class Home extends PureComponent {
                       <div className="row">
                         <div className="col-sm-6">
                           <Link
-                            to="/dashboard/economy"
+                            to="/dashboard/social-services-and-investments"
                             className="submenu-list"
                           >
                             <h4>TRADERMONI</h4>
@@ -419,7 +419,7 @@ class Home extends PureComponent {
 
                         <div className="col-sm-6">
                           <Link
-                            to="/dashboard/economy"
+                            to="/dashboard/social-services-and-investments"
                             className="submenu-list"
                           >
                             <h4>MARKETMONI</h4>
@@ -427,7 +427,7 @@ class Home extends PureComponent {
                         </div>
                         <div className="col-sm-6">
                           <Link
-                            to="/dashboard/economy"
+                            to="/dashboard/social-services-and-investments"
                             className="submenu-list"
                           >
                             <h4>NPOWER</h4>
@@ -436,7 +436,7 @@ class Home extends PureComponent {
                         
                         <div className="col-sm-6">
                           <Link
-                            to="/dashboard/economy"
+                            to="/dashboard/social-services-and-investments"
                             className="submenu-list"
                           >
                             <h4>CCT</h4>
@@ -444,7 +444,7 @@ class Home extends PureComponent {
                         </div>
                         <div className="col-sm-6">
                           <Link
-                            to="/dashboard/economy"
+                            to="/dashboard/social-services-and-investments"
                             className="submenu-list"
                           >
                             <h4> National Home Grown School Feeding Programme</h4>

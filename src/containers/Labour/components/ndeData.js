@@ -6,7 +6,7 @@ class NdeData extends PureComponent {
   render() {
     return (
       <div className="col-sm-12 ndeData">
-        <div className="row">
+        <div className="">
           <div className="col-sm-12">
             <h4>Report on Employability Status of Nigerian Students</h4>
           </div>
@@ -44,70 +44,70 @@ class NdeData extends PureComponent {
             </p>
           </div>
 
-          <div className="col-sm-3 mg_top-xs">
+          <div className="col-sm-3 col-6 mg_top-xs">
             <div className="deep-blue employability-status">
               <h5>1</h5>
               <p>Computer Science</p>
             </div>
           </div>
 
-          <div className="col-sm-3 mg_top-xs">
+          <div className="col-sm-3 col-6 mg_top-xs">
             <div className="deep-green employability-status">
               <h5>2</h5>
               <p>Economics</p>
             </div>
           </div>
 
-          <div className="col-sm-3 mg_top-xs">
+          <div className="col-sm-3 col-6 mg_top-xs">
             <div className="deep-red employability-status">
               <h5>3</h5>
               <p>Electrical Electronics Engineering</p>
             </div>
           </div>
 
-          <div className="col-sm-3 mg_top-xs">
+          <div className="col-sm-3 col-6 mg_top-xs">
             <div className="touquise employability-status">
               <h5>4</h5>
               <p>Accounting</p>
             </div>
           </div>
 
-          <div className="col-sm-3 mg_top-xs">
+          <div className="col-sm-3 col-6 mg_top-xs">
             <div className="deep-blue employability-status">
               <h5>5</h5>
               <p>Mass Communications</p>
             </div>
           </div>
 
-          <div className="col-sm-3 mg_top-xs">
+          <div className="col-sm-3 col-6  mg_top-xs">
             <div className="deep-green employability-status">
               <h5>6</h5>
               <p>Biochemistry</p>
             </div>
           </div>
 
-          <div className="col-sm-3 mg_top-xs">
+          <div className="col-sm-3 col-6  mg_top-xs">
             <div className="deep-red employability-status">
               <h5>7</h5>
               <p>Computer Engineering</p>
             </div>
           </div>
 
-          <div className="col-sm-3 mg_top-xs">
+          <div className="col-sm-3 col-6 mg_top-xs">
             <div className="touquise employability-status">
               <h5>8</h5>
               <p>Banking & Finance</p>
             </div>
           </div>
 
-          <div className="col-sm-3 mg_top-xs">
+          <div className="col-sm-3 col-6 mg_top-xs">
             <div className="deep-blue employability-status">
               <h5>9</h5>
               <p>Business Administration</p>
             </div>
           </div>
 
-          <div className="col-sm-3 mg_top-xs">
+          <div className="col-sm-3 col-6 mg_top-xs">
             <div className="deep-green employability-status">
               <h5>10</h5>
               <p>Microbiology</p>

@@ -1,0 +1,19 @@
+.social-mg-bottom{
+  margin-bottom:25px;
+}
+.social .card{
+  margin-top:0;
+  height:179px;
+}
+
+img{
+  width:100%;
+}
+@media (max-width: 480px) {
+  .tabs h1 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: normal;
+    margin-bottom:40px;
+  }
+}

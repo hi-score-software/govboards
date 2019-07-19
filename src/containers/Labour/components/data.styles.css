@@ -21,7 +21,7 @@
   line-height: 22px;
   text-transform: uppercase;
   color: #ac2200;
-  margin-bottom:45px;
+  margin-bottom: 45px;
 }
 
 .firs p,
@@ -50,8 +50,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border-radius:5px;
-
+  border-radius: 5px;
 }
 .deep-blue {
   background-color: #370ab7;
@@ -59,11 +58,11 @@
 .deep-green {
   background-color: #0ab7a2;
 }
-.deep-red{
-  background-color: #AC2200;
+.deep-red {
+  background-color: #ac2200;
 }
-.touquise{
-  background-color: #2D9CDB;
+.touquise {
+  background-color: #2d9cdb;
 }
 .employability h5,
 .employability p {
@@ -83,4 +82,30 @@
   line-height: 22px;
   text-align: center;
   color: #ffffff;
+}
+
+@media (max-width: 480px) {
+  .ndeData {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .ndeData .employability .small {
+    width: 100%;
+    margin: 20px 0;
+  }
+
+  .employability-status {
+    height: 130px;
+    margin-bottom: 10px;
+  }
+  .employability-status h5 {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 24px;
+  }
+  .employability-status p {
+    font-size: 13px;
+    line-height: normal;
+  }
 }

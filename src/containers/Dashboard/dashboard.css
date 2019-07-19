@@ -35,7 +35,7 @@
   background-color: #1e7b28;
   height: 110px;
   width: 100%;
-  position:fixed;
+  position: fixed;
   z-index: 99999;
 }
 .dashboard-content .nav_menu {
@@ -53,38 +53,99 @@
 .show-on-mobile {
   display: none;
 }
-.nav_menu-list{
+.nav_menu-list {
   display: flex;
-
 }
 
-.nav_menu-list a{
+.nav_menu-list a {
   display: flex;
-  height: 110px;
+  height: 109px;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width:92px;
-  color:#fff;
+  width: 92px;
+  color: #fff;
 }
-.nav_menu-list a span{
-  font-size:12px;
+.nav_menu-list a span {
+  font-size: 12px;
   font-weight: bolder;
   line-height: normal;
   text-align: center;
   display: none;
 }
-.nav_menu-list a img{
-  width:34px;
+.nav_menu-list a img {
+  width: 34px;
 }
-.active{
+.active {
+  background-color: #085310;
+}
+.nav_menu-list a .active > span {
+  display: block;
+}
+
+.nav-modal {
+  position: fixed;
+  z-index: 99999999;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  animation-duration: 1s;
+  animation-name: fadeIn;
+  padding-bottom: 40px;
+  overflow: auto;
+  display: none;
+}
+.show {
+  display: flex;
+}
+.nav-modal-content {
+  background-color: #fff;
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 20px;
+  border-radius: 5px;
+}
+
+.nav-modal-content button{
+  background-color:#dc3545;
+  color:#fff;
+  padding:5px 10px;
+  border-radius:5px;
+  border:none;
+  margin-bottom:10px;
+  font-size:9px;
+  align-self: flex-end;
+}
+.nav-modal-content a {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 17px;
+  align-items: center;
+  border-radius:3px;
   background-color:#085310;
+  height: 140px;
+  justify-content: space-between;
+  margin-bottom:10px;
+  text-align: center;
+
 }
-.nav_menu-list a .active>span{
-  display:block;
+.nav-modal-content a img {
+  margin-bottom: 10px;
+  width: 80px;
+}
+.nav-modal-content a span {
+  font-size:12px;
 }
 @media (max-width: 480px) {
-  .hide-on-mobile{display:none;}
+  .hide-on-mobile {
+    display: none;
+  }
   .dashboard-content nav,
   .dashboard-content .nav_menu {
     height: 70px;

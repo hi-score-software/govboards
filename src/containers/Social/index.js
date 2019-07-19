@@ -1,43 +1,43 @@
 import React, { PureComponent } from "react";
 import Tabs from "../../components/Tab";
 
-import MacroData from "./components/ndeData";
+import TraderMoni from "./components/tradermoni";
 
 
-import "./labour.css";
+import "./social.css";
 
-class Labour extends PureComponent {
+class Social extends PureComponent {
   state = {
     tabs: {
-      active: "nde"
+      active: "Tradermoni"
     }
   };
   render() {
     console.log(this.props);
     const content = {
-      nde: <MacroData />,
+      Tradermoni: <TraderMoni />,
     };
     return (
       <section className="dashboard-body-wrapper">
-        <div className="tabs labour-page">
-        <div className="container">
-          <h1>LABOUR AND BUSINESS ENVIRONMENT</h1>
-          <div className="tab-container">
-            <Tabs
-              active={this.state.tabs.active}
-              onChange={active => this.setState({ tabs: { active } })}
-            >
-              <div key="nde">NATIONAL DIRECTORATE OF EMPLOYMENT</div>
-             
-            </Tabs>
-          </div>
+        <div className="tabs">
+          <div className="container">
+            <h1>SOCIAL SERVICES INITIATIVES</h1>
+            <div className="tab-container">
+              <Tabs
+                active={this.state.tabs.active}
+                onChange={active => this.setState({ tabs: { active } })}
+              >
+                <div key="Tradermoni">TRADERMONI</div>
+              
+              </Tabs>
+            </div>
           </div>
           <div className="tab-container-body">
             <div className="container">
               <div className="row d-flex align-items-center justify-content-center">
                 <div className="col-sm-12">
                   <div className="tabs-content">
-                  {content[this.state.tabs.active]}
+                    {content[this.state.tabs.active]}
                   </div>
                 </div>
               </div>
@@ -49,4 +49,4 @@ class Labour extends PureComponent {
   }
 }
 
-export default Labour;
+export default Social;

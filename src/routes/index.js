@@ -27,3 +27,8 @@ export const Labour = Loadable({
   loader: () => import("../containers/Labour"),
   loading: loadingSpinner
 })
+
+export const Social = Loadable({
+  loader: () => import("../containers/Social"),
+  loading: loadingSpinner
+})
