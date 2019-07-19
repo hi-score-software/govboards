@@ -35,6 +35,8 @@
   background-color: #1e7b28;
   height: 110px;
   width: 100%;
+  position:fixed;
+  z-index: 99999;
 }
 .dashboard-content .nav_menu {
   height: 110px;

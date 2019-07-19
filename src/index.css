@@ -194,6 +194,7 @@ form input::placeholder {
 .dashboard-body-wrapper {
   width: 100%;
   background-color: #fff;
+  padding-top:150px;
 }
 
 .height-601 {
@@ -233,6 +234,9 @@ form input::placeholder {
 }
 
 @media (max-width: 480px) {
+  .dashboard-body-wrapper{
+    padding-top:60px;
+  }
   .header-menu {
     height: 60px;
     padding: 0 20px;
