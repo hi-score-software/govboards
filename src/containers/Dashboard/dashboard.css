@@ -30,3 +30,50 @@
 .user-photo svg {
   fill: #c4c4c4;
 }
+
+.dashboard-content nav {
+  background-color: #1e7b28;
+  height: 110px;
+  width: 100%;
+}
+.dashboard-content .nav_menu {
+  height: 110px;
+  display: flex;
+  justify-content: space-between;
+}
+.nav_menu-logo {
+  display: flex;
+}
+.nav_menu-logo img {
+  width: 100px;
+  align-self: center;
+}
+.show-on-mobile {
+  display: none;
+}
+@media (max-width: 480px) {
+  .dashboard-content nav,
+  .dashboard-content .nav_menu {
+    height: 70px;
+  }
+  .nav_menu-logo img {
+    width: 60px;
+  }
+  .show-on-mobile {
+    display: flex;
+    align-items: center;
+  }
+  .show-on-mobile img {
+    width: 25px;
+  }
+
+  .macro {
+    padding-left: 0px;
+  }
+  .macro h4,
+  .firs h4 {
+    font-size: 12px;
+    line-height: 22px;
+    margin-bottom: 20px;
+  }
+}

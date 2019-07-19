@@ -92,3 +92,25 @@
   text-transform: uppercase;
   color: #797979 !important;
 }
+
+
+@media(max-width:480px){
+  .tab-container-body {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .Tabs_container{
+    display: flex;
+  }
+  .tabs_item{
+    font-size:10px;
+    text-align: center;
+    margin-right:0;
+  }
+  .mg_tb{
+    margin:20px 0;
+  }
+  .mg_top-xs {
+    margin-top: 0px;
+  }
+}

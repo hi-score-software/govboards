@@ -22,7 +22,6 @@ class Home extends PureComponent {
                   <img
                     src={require("../../assets/images/logo-one.png")}
                     alt=""
-
                   />
                   <div className="form-group">
                     <input type="text" placeholder="SEARCH" />
@@ -276,28 +275,28 @@ class Home extends PureComponent {
                     </div>
                     <div className="col-sm-8">
                       <div className="row">
-                        <div className="col-sm-4">
+                        <div className="col-sm-6">
                           <Link
                             to="/dashboard/economy"
                             className="submenu-list"
                           >
-                            <h4>Financial Data</h4>
+                            <h4>Central bank of Nigeria</h4>
                           </Link>
                         </div>
-                        <div className="col-sm-4">
+                        <div className="col-sm-6">
                           <Link
                             to="/dashboard/economy"
                             className="submenu-list"
                           >
-                            <h4>Crude Oil Exchange Rates</h4>
+                            <h4>Federal Inland Revenue Service</h4>
                           </Link>
                         </div>
-                        <div className="col-sm-4">
+                        <div className="col-sm-6">
                           <Link
                             to="/dashboard/economy"
                             className="submenu-list"
                           >
-                            <h4>MacroEconomic Indicators</h4>
+                            <h4>Corporate affairs commission</h4>
                           </Link>
                         </div>
                       </div>
@@ -354,7 +353,7 @@ class Home extends PureComponent {
                     </div>
                     <div className="col-sm-4">
                       <Link to="/dashboard/economy" className="submenu-list">
-                        <h4>Crude Oil Exchange Rates</h4>
+                        <h4>National Youth service corp</h4>
                       </Link>
                     </div>
                   </div>
@@ -409,7 +408,7 @@ class Home extends PureComponent {
                     </div>
                     <div className="col-sm-8">
                       <div className="row">
-                        <div className="col-sm-4">
+                        <div className="col-sm-6">
                           <Link
                             to="/dashboard/economy"
                             className="submenu-list"
@@ -418,7 +417,7 @@ class Home extends PureComponent {
                           </Link>
                         </div>
 
-                        <div className="col-sm-4">
+                        <div className="col-sm-6">
                           <Link
                             to="/dashboard/economy"
                             className="submenu-list"
@@ -426,7 +425,7 @@ class Home extends PureComponent {
                             <h4>MARKETMONI</h4>
                           </Link>
                         </div>
-                        <div className="col-sm-4">
+                        <div className="col-sm-6">
                           <Link
                             to="/dashboard/economy"
                             className="submenu-list"
@@ -434,15 +433,8 @@ class Home extends PureComponent {
                             <h4>NPOWER</h4>
                           </Link>
                         </div>
-                        <div className="col-sm-4">
-                          <Link
-                            to="/dashboard/economy"
-                            className="submenu-list"
-                          >
-                            <h4>HGSF</h4>
-                          </Link>
-                        </div>
-                        <div className="col-sm-4">
+                        
+                        <div className="col-sm-6">
                           <Link
                             to="/dashboard/economy"
                             className="submenu-list"
@@ -450,6 +442,15 @@ class Home extends PureComponent {
                             <h4>CCT</h4>
                           </Link>
                         </div>
+                        <div className="col-sm-6">
+                          <Link
+                            to="/dashboard/economy"
+                            className="submenu-list"
+                          >
+                            <h4> National Home Grown School Feeding Programme</h4>
+                          </Link>
+                        </div>
+                      
                       </div>
                     </div>
                   </div>
@@ -542,7 +543,6 @@ class Home extends PureComponent {
                 </div>
                 <div className="col-sm-4">
                   <div
-                    className="main-menu_card education"
                     className={
                       type === "education"
                         ? "main-menu_card education active-card"
@@ -635,20 +635,20 @@ class Home extends PureComponent {
                     </div>
                     <div className="col-sm-8">
                       <div className="row">
-                        <div className="col-sm-4">
+                        <div className="col-sm-6">
                           <Link
                             to="/dashboard/economy"
                             className="submenu-list"
                           >
-                            <h4>NNPC</h4>
+                            <h4>Nigerian National Petroleum Corporation</h4>
                           </Link>
                         </div>
-                        <div className="col-sm-4">
+                        <div className="col-sm-6">
                           <Link
                             to="/dashboard/economy"
                             className="submenu-list"
                           >
-                            <h4>NERC</h4>
+                            <h4>Nigerian Electricity Regulatory Commission</h4>
                           </Link>
                         </div>
                       </div>
@@ -698,28 +698,28 @@ class Home extends PureComponent {
                     </div>
                     <div className="col-sm-8">
                       <div className="row">
-                        <div className="col-sm-4">
+                        <div className="col-sm-6">
                           <Link
                             to="/dashboard/economy"
                             className="submenu-list"
                           >
-                            <h4>NIS</h4>
+                            <h4>Nigeria Immigration Service</h4>
                           </Link>
                         </div>
-                        <div className="col-sm-4">
+                        <div className="col-sm-6">
                           <Link
                             to="/dashboard/economy"
                             className="submenu-list"
                           >
-                            <h4>FAAN</h4>
+                            <h4>Federal Airports Authority of Nigeria</h4>
                           </Link>
                         </div>
-                        <div className="col-sm-4">
+                        <div className="col-sm-6">
                           <Link
                             to="/dashboard/economy"
                             className="submenu-list"
                           >
-                            <h4>NPOWER</h4>
+                            <h4>Nigeria Customs Administration</h4>
                           </Link>
                         </div>
                       </div>
@@ -773,20 +773,20 @@ class Home extends PureComponent {
                     </div>
                     <div className="col-sm-8">
                       <div className="row">
-                        <div className="col-sm-4">
+                        <div className="col-sm-6">
                           <Link
                             to="/dashboard/economy"
                             className="submenu-list"
                           >
-                            <h4>UBEC</h4>
+                            <h4>Universal Basic Education Commission</h4>
                           </Link>
                         </div>
-                        <div className="col-sm-4">
+                        <div className="col-sm-6">
                           <Link
                             to="/dashboard/economy"
                             className="submenu-list"
                           >
-                            <h4>NUC</h4>
+                            <h4>National Universities Commission</h4>
                           </Link>
                         </div>
                       </div>
@@ -1042,20 +1042,20 @@ class Home extends PureComponent {
                     </div>
                     <div className="col-sm-8">
                       <div className="row">
-                        <div className="col-sm-4">
+                        <div className="col-sm-6">
                           <Link
                             to="/dashboard/economy"
                             className="submenu-list"
                           >
-                            <h4>NCC</h4>
+                            <h4>Nigerian Communications Commission</h4>
                           </Link>
                         </div>
-                        <div className="col-sm-4">
+                        <div className="col-sm-6">
                           <Link
                             to="/dashboard/economy"
                             className="submenu-list"
                           >
-                            <h4>NITDA</h4>
+                            <h4>National Information Technology Development Agency</h4>
                           </Link>
                         </div>
                       </div>

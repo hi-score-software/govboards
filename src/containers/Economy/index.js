@@ -38,7 +38,7 @@ class Economy extends PureComponent {
               <div className="row d-flex align-items-center justify-content-center">
                 <div className="col-sm-12">
                   <div className="tabs-content">
-                    <div className="row">{content[this.state.tabs.active]}</div>
+                    {content[this.state.tabs.active]}
                   </div>
                 </div>
               </div>

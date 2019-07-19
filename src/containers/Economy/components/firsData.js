@@ -82,12 +82,12 @@ class FirsData extends PureComponent {
               <div className="chart-card bg-white">
                 <div className="d-flex justify-content-between align-items-start" style={{width: "100%"}}>
                   <h4>Domestic Production (Monthly growth)</h4>
-                  <img
+                  <img alt="data"
                   src={require("../../../assets/charts/Group 52.png")}
                   className="img-responsive"
                 />
                 </div>
-                <img
+                <img alt="data"
                   src={require("../../../assets/charts/individual income tax.png")}
                   className="img-responsive"
                 />
@@ -101,12 +101,12 @@ class FirsData extends PureComponent {
               <div className="chart-card bg-white">
                 <div className="d-flex justify-content-between align-items-start" style={{width: "100%"}}>
                   <h4>Crude Oil Export (Monthly growth)</h4>
-                  <img
+                  <img alt="data"
                   src={require("../../../assets/charts/Group 52.png")}
                   className="img-responsive"
                 />
                 </div>
-                <img
+                <img alt="data"
                   src={require("../../../assets/charts/crude-oil-export.png")}
                   className="img-responsive"
                 />
@@ -121,12 +121,12 @@ class FirsData extends PureComponent {
               <div className="chart-card bg-white">
                 <div className="d-flex justify-content-between align-items-start" style={{width: "100%"}}>
                   <h4>Federation Accounts - Revenue (Monthly growth)</h4>
-                  <img
+                  <img alt="data"
                   src={require("../../../assets/charts/Group 52.png")}
                   className="img-responsive"
                 />
                 </div>
-                <img
+                <img alt="data"
                   src={require("../../../assets/charts/individual income tax.png")}
                   className="img-responsive"
                 />
@@ -141,12 +141,12 @@ class FirsData extends PureComponent {
               <div className="chart-card bg-white">
                 <div className="d-flex justify-content-between align-items-start" style={{width: "100%"}}>
                   <h4>Gross Oil Revenue (Monthly growth)</h4>
-                  <img
+                  <img alt="data"
                   src={require("../../../assets/charts/Group 52.png")}
                   className="img-responsive"
                 />
                 </div>
-                <img
+                <img alt="data"
                   src={require("../../../assets/charts/individual income tax.png")}
                   className="img-responsive"
                 />
@@ -161,12 +161,12 @@ class FirsData extends PureComponent {
               <div className="chart-card bg-white">
                 <div className="d-flex justify-content-between align-items-start" style={{width: "100%"}}>
                   <h4>Gross Oil Revenue (Monthly growth)</h4>
-                  <img
+                  <img alt="data"
                   src={require("../../../assets/charts/Group 52.png")}
                   className="img-responsive"
                 />
                 </div>
-                <img
+                <img alt="data"
                   src={require("../../../assets/charts/gross external reserves monthl-growth.png")}
                   className="img-responsive"
                 />

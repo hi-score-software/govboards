@@ -11,8 +11,6 @@ header h4 {
   color: #fff;
 }
 
-#welcome-screen {
-}
 .logo-con img {
   width: 212px;
   padding-top: 81px;
@@ -153,9 +151,7 @@ form input::placeholder {
 }
 
 /** submenu **/
-.submenu {
-  margin-top: 10px;
-}
+
 .submenu-list {
   height: 72px;
   left: 105px;
@@ -167,11 +163,15 @@ form input::placeholder {
   box-sizing: border-box;
   display: flex;
   align-items: center;
-  margin-top: 15px;
+  margin-bottom: 15px;
   text-decoration: none;
+  padding-right:10px;
 }
 .submenu-list a {
   text-decoration: none;
+}
+.submenu-list a:hover{
+  text-decoration:none !important;
 }
 .submenu-list h4 {
   font-weight: 600;
@@ -225,6 +225,11 @@ form input::placeholder {
 .submenu {
   background-color: #003206;
   padding: 67px 0;
+  margin-top: 10px;
+  border-radius:5px;
+}
+.user-photo svg {
+  fill: #c4c4c4;
 }
 
 @media (max-width: 480px) {
@@ -292,14 +297,14 @@ form input::placeholder {
     min-height: 300px;
   }
   .card{
-    height: 130px;
+    height: 130px !important;
     padding:15px;
   }
   .card h5{
-    font-size:20px;
+    font-size:24px !important;
   }
   .card p{
-    font-size: 12px;
+    font-size: 14px !important;
   }
   .chart-card,
   .card {

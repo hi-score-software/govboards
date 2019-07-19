@@ -87,11 +87,11 @@ class MacroData extends PureComponent {
             <div class="col-sm-6">
               <div class="chart-card height-601 bg-white">
                 <h4>Sources of Tax Revenue</h4>
-                <img
+                <img alt="data"
                   src={require("../../../assets/charts/source-of-tax-revenue.png")}
                   className="img-responsive"
                 />
-                <img
+                <img alt="data"
                   style={{ marginTop: 50 }}
                   src={require("../../../assets/charts/tax-revenue-information.png")}
                   className="img-responsive"
@@ -101,7 +101,7 @@ class MacroData extends PureComponent {
             <div class="col-sm-6">
               <div class="chart-card height-601 bg-white">
                 <h4>Sources of Tax Revenue</h4>
-                <img
+                <img alt="data"
                   src={require("../../../assets/charts/corporate income taxes.png")}
                   className="img-responsive"
                 />
@@ -118,12 +118,12 @@ class MacroData extends PureComponent {
                   style={{ width: "100%" }}
                 >
                   <h4>INDIVIDUAL INCOME TASK</h4>
-                  <img
+                  <img alt="data"
                     src={require("../../../assets/charts/Group 52.png")}
                     className="img-responsive"
                   />
                 </div>
-                <img
+                <img alt="data"
                   src={require("../../../assets/charts/individual income tax.png")}
                   className="img-responsive"
                 />
@@ -140,12 +140,12 @@ class MacroData extends PureComponent {
                   style={{ width: "100%" }}
                 >
                   <h4>Federal Tax Revenue as a Percentage of GDP</h4>
-                  <img
+                  <img alt="data"
                     src={require("../../../assets/charts/Group 52.png")}
                     className="img-responsive"
                   />
                 </div>
-                <img
+                <img alt="data"
                   src={require("../../../assets/charts/individual income tax.png")}
                   className="img-responsive"
                 />
@@ -162,12 +162,12 @@ class MacroData extends PureComponent {
                   style={{ width: "100%" }}
                 >
                   <h4>Revenue from Excise Tax</h4>
-                  <img
+                  <img alt="data"
                     src={require("../../../assets/charts/Group 52.png")}
                     className="img-responsive"
                   />
                 </div>
-                <img
+                <img alt="data"
                   src={require("../../../assets/charts/revenue from excise tax.png")}
                   className="img-responsive"
                 />
@@ -184,12 +184,12 @@ class MacroData extends PureComponent {
                   style={{ width: "100%" }}
                 >
                   <h4>Revenue from Petroleum Profit Tax</h4>
-                  <img
+                  <img alt="data"
                     src={require("../../../assets/charts/Group 52.png")}
                     className="img-responsive"
                   />
                 </div>
-                <img
+                <img alt="data"
                   src={require("../../../assets/charts/individual income tax.png")}
                   className="img-responsive"
                 />

@@ -1,5 +1,4 @@
 import React, { PureComponent } from "react";
-import { Doughnut } from "react-chartjs-2";
 
 import "./data.styles.css";
 
@@ -17,7 +16,7 @@ class NdeData extends PureComponent {
               <div class="chart-card height-601 bg-white">
                 <h4>Employability Status of Nigerian Students By gender</h4>
 
-                <img
+                <img alt="data"
                   style={{ marginTop: 50 }}
                   src={require("../../../assets/charts/employability-status-of-nigerian-students.png")}
                   className="img-responsive"
@@ -27,7 +26,7 @@ class NdeData extends PureComponent {
             <div class="col-sm-6">
               <div class="chart-card height-601 bg-white">
                 <h4>Employability Status By gender</h4>
-                <img
+                <img alt="data"
                   src={require("../../../assets/charts/employability-status-by-gender.png")}
                   className="img-responsive"
                 />
@@ -121,7 +120,7 @@ class NdeData extends PureComponent {
               <div class="chart-card height-601 bg-white">
                 <h4>Most Employable Universities</h4>
 
-                <img
+                <img alt="data"
                   style={{ marginTop: 50 }}
                   src={require("../../../assets/charts/most employable university.png")}
                   className="img-responsive"
@@ -131,7 +130,7 @@ class NdeData extends PureComponent {
             <div class="col-sm-6">
               <div class="chart-card height-601 bg-white">
                 <h4>medium graduates use to get jobs</h4>
-                <img
+                <img alt="data"
                   src={require("../../../assets/charts/medium-graduates-use-to-get-jobs.png")}
                   className="img-responsive"
                 />
@@ -148,7 +147,7 @@ class NdeData extends PureComponent {
                   <h4>Most Employable industries</h4>
                   
                 </div>
-                <img
+                <img alt="data"
                   src={require("../../../assets/charts/most-employable-industries.png")}
                   className="img-responsive"
                 />
@@ -165,7 +164,7 @@ class NdeData extends PureComponent {
                   <h4>Salary distribution for students</h4>
                   
                 </div>
-                <img
+                <img alt="data"
                   src={require("../../../assets/charts/salary distribution.png")}
                   className="img-responsive"
                 />
@@ -182,7 +181,7 @@ class NdeData extends PureComponent {
                   <h4>salary to tuition percentages</h4>
                   
                 </div>
-                <img
+                <img alt="data"
                   src={require("../../../assets/charts/salary to tuition percentage.png")}
                   className="img-responsive"
                 />
@@ -197,12 +196,12 @@ class NdeData extends PureComponent {
               <div className="chart-card bg-white">
                 <div className="d-flex justify-content-between align-items-start" style={{width: "100%"}}>
                   <h4>Employability status by Gender</h4>
-                  <img
+                  <img alt="data"
                   src={require("../../../assets/charts/Group 52.png")}
                   className="img-responsive"
                 />
                 </div>
-                <img
+                <img alt="data"
                   src={require("../../../assets/charts/employability status by gender (1).png")}
                   className="img-responsive"
                 />
@@ -218,22 +217,3 @@ class NdeData extends PureComponent {
 
 export default NdeData;
 
-const data = {
-  labels: ["Umemployed", "working full time", "preparing for further study"],
-  datasets: [
-    {
-      data: [300, 100, 50, 200],
-      backgroundColor: ["#ED4700", "#2D9CDB", "#370AB7", "#0AB7A2"]
-    }
-  ]
-};
-
-const genderData = {
-  labels: ["female", "Male"],
-  datasets: [
-    {
-      data: [300, 200],
-      backgroundColor: ["#370AB7", "#ED4700"]
-    }
-  ]
-};

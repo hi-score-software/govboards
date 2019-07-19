@@ -1,14 +1,22 @@
-.tabs{
-  height:218px;
-  width:100%;
-  background-color:#fff;
+.tabs {
+  height: 218px;
+  width: 100%;
+  background-color: #fff;
 }
 
-.tabs h1{
-font-weight: 600;
-font-size: 45px;
-line-height: 55px;
-color: #13761E;
-margin-top:30px;
-margin-bottom:74px;
+.tabs h1 {
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 55px;
+  color: #13761e;
+  margin-top: 30px;
+  margin-bottom: 74px;
+}
+
+@media (max-width: 480px) {
+  .tabs h1 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: normal;
+  }
 }

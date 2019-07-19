@@ -47,3 +47,10 @@
 .firs p, .macro p{
   text-align: center;
 }
+
+@media(max-width: 480px){
+  .macro h4, .firs h4{
+    font-size:16px;
+    margin-bottom: 30px;
+  }
+}
