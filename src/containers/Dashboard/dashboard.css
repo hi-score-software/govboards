@@ -51,7 +51,38 @@
 .show-on-mobile {
   display: none;
 }
+.nav_menu-list{
+  display: flex;
+
+}
+
+.nav_menu-list a{
+  display: flex;
+  height: 110px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width:92px;
+  color:#fff;
+}
+.nav_menu-list a span{
+  font-size:12px;
+  font-weight: bolder;
+  line-height: normal;
+  text-align: center;
+  display: none;
+}
+.nav_menu-list a img{
+  width:34px;
+}
+.active{
+  background-color:#085310;
+}
+.nav_menu-list a .active>span{
+  display:block;
+}
 @media (max-width: 480px) {
+  .hide-on-mobile{display:none;}
   .dashboard-content nav,
   .dashboard-content .nav_menu {
     height: 70px;
