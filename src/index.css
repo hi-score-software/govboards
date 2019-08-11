@@ -153,25 +153,57 @@ form input::placeholder {
 /** submenu **/
 
 .submenu-list {
-  height: 72px;
+  height: 116px;
   left: 105px;
   top: 549px;
   background: #ffffff;
-  border-radius: 7px;
-  border-left: 20px solid #13761e;
-  border-radius: 5px;
+  border-radius: 3px;
   box-sizing: border-box;
   display: flex;
+  flex-direction: column;
   align-items: center;
   margin-bottom: 15px;
   text-decoration: none;
-  padding-right:10px;
 }
-.submenu-list a {
+
+.submenu-list {
   text-decoration: none;
 }
-.submenu-list a:hover{
-  text-decoration:none !important;
+.submenu-list:hover {
+  text-decoration: none !important;
+}
+.submenu-list h5 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  color: #13761e;
+  padding: 18px 0;
+  text-transform: uppercase;
+  text-align: center;
+}
+.submenu-list-details{
+  width:100%;
+  background: #F7F7F7;
+  border-radius: 3px;
+  height:100%;
+  padding:5px 0;
+}
+.submenu-list-details .list-items h6 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  margin-bottom:0;
+  color: #797979;
+}
+.submenu-list-details .list-items p {
+  padding: 0;
+  margin: 0;
+  font-size: 8px;
+  line-height: 10px;
+  text-align: center;
+  font-variant: small-caps;
+  color: #797979;
 }
 .submenu-list h4 {
   font-weight: 600;
@@ -194,7 +226,7 @@ form input::placeholder {
 .dashboard-body-wrapper {
   width: 100%;
   background-color: #fff;
-  padding-top:150px;
+  padding-top: 150px;
 }
 
 .height-601 {
@@ -227,15 +259,15 @@ form input::placeholder {
   background-color: #003206;
   padding: 67px 0;
   margin-top: 10px;
-  border-radius:5px;
+  border-radius: 5px;
 }
 .user-photo svg {
   fill: #c4c4c4;
 }
 
 @media (max-width: 480px) {
-  .dashboard-body-wrapper{
-    padding-top:60px;
+  .dashboard-body-wrapper {
+    padding-top: 60px;
   }
   .header-menu {
     height: 60px;
@@ -300,14 +332,14 @@ form input::placeholder {
   .height-601 {
     min-height: 300px;
   }
-  .card{
+  .card {
     height: 130px !important;
-    padding:15px;
+    padding: 15px;
   }
-  .card h5{
-    font-size:24px !important;
+  .card h5 {
+    font-size: 24px !important;
   }
-  .card p{
+  .card p {
     font-size: 14px !important;
   }
   .chart-card,

@@ -280,7 +280,26 @@ class Home extends PureComponent {
                             to="/dashboard/economy"
                             className="submenu-list"
                           >
-                            <h4>Central bank of Nigeria</h4>
+                            <div className="">
+                              <h5>Central bank of Nigeria</h5>
+                            </div>
+                            <div className="submenu-list-details d-flex justify-content-around align-items-center">
+                              <div className="list-items">
+                                <h6>$56</h6>
+                                <p>Crude Oil price</p>
+                                <p>($/Barrel)</p>
+                              </div>
+                              <div className="list-items">
+                                <h6>$56</h6>
+                                <p>Crude Oil price</p>
+                                <p>($/Barrel)</p>
+                              </div>
+                              <div className="list-items">
+                                <h6>$56</h6>
+                                <p>Crude Oil price</p>
+                                <p>($/Barrel)</p>
+                              </div>
+                            </div>
                           </Link>
                         </div>
                         <div className="col-sm-6">
@@ -288,7 +307,26 @@ class Home extends PureComponent {
                             to="/dashboard/economy"
                             className="submenu-list"
                           >
-                            <h4>Federal Inland Revenue Service</h4>
+                            <div className="">
+                              <h5>Federal Inland Revenue Service</h5>
+                            </div>
+                            <div className="submenu-list-details d-flex justify-content-around align-items-center">
+                              <div className="list-items">
+                                <h6>NGN 45.35B</h6>
+                                <p>Total tax revenue</p>
+                                <p> per quarter</p>
+                              </div>
+                              <div className="list-items">
+                                <h6>42%</h6>
+                                <p>ratio of taxes to</p>
+                                <p>gdp growth</p>
+                              </div>
+                              <div className="list-items">
+                                <h6>$56</h6>
+                                <p>Sources of federal </p>
+                                <p>tax revenue</p>
+                              </div>
+                            </div>
                           </Link>
                         </div>
                         <div className="col-sm-6">
@@ -296,7 +334,20 @@ class Home extends PureComponent {
                             to="/dashboard/economy"
                             className="submenu-list"
                           >
-                            <h4>Corporate affairs commission</h4>
+                            <div className="">
+                              <h5>Corporate affairs commission</h5>
+                            </div>
+                            <div className="submenu-list-details d-flex justify-content-around align-items-center">
+                              <div className="list-items">
+                                <h6>N/A</h6>
+                              </div>
+                              <div className="list-items">
+                                <h6>N/A</h6>
+                              </div>
+                              <div className="list-items">
+                                <h6>N/A</h6>
+                              </div>
+                            </div>
                           </Link>
                         </div>
                       </div>
@@ -352,8 +403,24 @@ class Home extends PureComponent {
                       </div>
                     </div>
                     <div className="col-sm-4">
-                      <Link to="/dashboard/labour-business-and-environment" className="submenu-list">
-                        <h4>National Youth service corp</h4>
+                      <Link
+                        to="/dashboard/labour-business-and-environment"
+                        className="submenu-list"
+                      >
+                        <div className="">
+                          <h5>National Youth service corp</h5>
+                        </div>
+                        <div className="submenu-list-details d-flex justify-content-around align-items-center">
+                          <div className="list-items">
+                            <h6>N/A</h6>
+                          </div>
+                          <div className="list-items">
+                            <h6>N/A</h6>
+                          </div>
+                          <div className="list-items">
+                            <h6>N/A</h6>
+                          </div>
+                        </div>
                       </Link>
                     </div>
                   </div>
@@ -413,7 +480,20 @@ class Home extends PureComponent {
                             to="/dashboard/social-services-and-investments"
                             className="submenu-list"
                           >
-                            <h4>TRADERMONI</h4>
+                            <div className="">
+                              <h5>TRADERMONI</h5>
+                            </div>
+                            <div className="submenu-list-details d-flex justify-content-around align-items-center">
+                              <div className="list-items">
+                                <h6>N/A</h6>
+                              </div>
+                              <div className="list-items">
+                                <h6>N/A</h6>
+                              </div>
+                              <div className="list-items">
+                                <h6>N/A</h6>
+                              </div>
+                            </div>
                           </Link>
                         </div>
 
@@ -422,7 +502,20 @@ class Home extends PureComponent {
                             to="/dashboard/social-services-and-investments"
                             className="submenu-list"
                           >
-                            <h4>MARKETMONI</h4>
+                            <div className="">
+                              <h5>MARKETMONI</h5>
+                            </div>
+                            <div className="submenu-list-details d-flex justify-content-around align-items-center">
+                              <div className="list-items">
+                                <h6>N/A</h6>
+                              </div>
+                              <div className="list-items">
+                                <h6>N/A</h6>
+                              </div>
+                              <div className="list-items">
+                                <h6>N/A</h6>
+                              </div>
+                            </div>
                           </Link>
                         </div>
                         <div className="col-sm-6">
@@ -430,16 +523,42 @@ class Home extends PureComponent {
                             to="/dashboard/social-services-and-investments"
                             className="submenu-list"
                           >
-                            <h4>NPOWER</h4>
+                            <div className="">
+                              <h5>NPOWER</h5>
+                            </div>
+                            <div className="submenu-list-details d-flex justify-content-around align-items-center">
+                              <div className="list-items">
+                                <h6>N/A</h6>
+                              </div>
+                              <div className="list-items">
+                                <h6>N/A</h6>
+                              </div>
+                              <div className="list-items">
+                                <h6>N/A</h6>
+                              </div>
+                            </div>
                           </Link>
                         </div>
-                        
+
                         <div className="col-sm-6">
                           <Link
                             to="/dashboard/social-services-and-investments"
                             className="submenu-list"
                           >
-                            <h4>CCT</h4>
+                            <div className="">
+                              <h5>CCT</h5>
+                            </div>
+                            <div className="submenu-list-details d-flex justify-content-around align-items-center">
+                              <div className="list-items">
+                                <h6>N/A</h6>
+                              </div>
+                              <div className="list-items">
+                                <h6>N/A</h6>
+                              </div>
+                              <div className="list-items">
+                                <h6>N/A</h6>
+                              </div>
+                            </div>
                           </Link>
                         </div>
                         <div className="col-sm-6">
@@ -447,10 +566,23 @@ class Home extends PureComponent {
                             to="/dashboard/social-services-and-investments"
                             className="submenu-list"
                           >
-                            <h4> National Home Grown School Feeding Programme</h4>
+                            
+                            <div className="">
+                              <h5> National Home Grown School Feeding Programme</h5>
+                            </div>
+                            <div className="submenu-list-details d-flex justify-content-around align-items-center">
+                              <div className="list-items">
+                                <h6>N/A</h6>
+                              </div>
+                              <div className="list-items">
+                                <h6>N/A</h6>
+                              </div>
+                              <div className="list-items">
+                                <h6>N/A</h6>
+                              </div>
+                            </div>
                           </Link>
                         </div>
-                      
                       </div>
                     </div>
                   </div>
@@ -640,7 +772,21 @@ class Home extends PureComponent {
                             to="/dashboard/economy"
                             className="submenu-list"
                           >
-                            <h4>Nigerian National Petroleum Corporation</h4>
+                         
+                            <div className="">
+                              <h5>Nigerian National Petroleum Corporation</h5>
+                            </div>
+                            <div className="submenu-list-details d-flex justify-content-around align-items-center">
+                              <div className="list-items">
+                                <h6>N/A</h6>
+                              </div>
+                              <div className="list-items">
+                                <h6>N/A</h6>
+                              </div>
+                              <div className="list-items">
+                                <h6>N/A</h6>
+                              </div>
+                            </div>
                           </Link>
                         </div>
                         <div className="col-sm-6">
@@ -648,7 +794,21 @@ class Home extends PureComponent {
                             to="/dashboard/economy"
                             className="submenu-list"
                           >
-                            <h4>Nigerian Electricity Regulatory Commission</h4>
+                            
+                            <div className="">
+                              <h5>Nigerian Electricity Regulatory Commission</h5>
+                            </div>
+                            <div className="submenu-list-details d-flex justify-content-around align-items-center">
+                              <div className="list-items">
+                                <h6>N/A</h6>
+                              </div>
+                              <div className="list-items">
+                                <h6>N/A</h6>
+                              </div>
+                              <div className="list-items">
+                                <h6>N/A</h6>
+                              </div>
+                            </div>
                           </Link>
                         </div>
                       </div>
@@ -703,7 +863,21 @@ class Home extends PureComponent {
                             to="/dashboard/economy"
                             className="submenu-list"
                           >
-                            <h4>Nigeria Immigration Service</h4>
+                            
+                            <div className="">
+                              <h5>Nigeria Immigration Service</h5>
+                            </div>
+                            <div className="submenu-list-details d-flex justify-content-around align-items-center">
+                              <div className="list-items">
+                                <h6>N/A</h6>
+                              </div>
+                              <div className="list-items">
+                                <h6>N/A</h6>
+                              </div>
+                              <div className="list-items">
+                                <h6>N/A</h6>
+                              </div>
+                            </div>
                           </Link>
                         </div>
                         <div className="col-sm-6">
@@ -711,7 +885,21 @@ class Home extends PureComponent {
                             to="/dashboard/economy"
                             className="submenu-list"
                           >
-                            <h4>Federal Airports Authority of Nigeria</h4>
+                           
+                            <div className="">
+                              <h5>Federal Airports Authority of Nigeria</h5>
+                            </div>
+                            <div className="submenu-list-details d-flex justify-content-around align-items-center">
+                              <div className="list-items">
+                                <h6>N/A</h6>
+                              </div>
+                              <div className="list-items">
+                                <h6>N/A</h6>
+                              </div>
+                              <div className="list-items">
+                                <h6>N/A</h6>
+                              </div>
+                            </div>
                           </Link>
                         </div>
                         <div className="col-sm-6">
@@ -719,7 +907,21 @@ class Home extends PureComponent {
                             to="/dashboard/economy"
                             className="submenu-list"
                           >
-                            <h4>Nigeria Customs Administration</h4>
+                           
+                            <div className="">
+                              <h5>Nigeria Customs Administration</h5>
+                            </div>
+                            <div className="submenu-list-details d-flex justify-content-around align-items-center">
+                              <div className="list-items">
+                                <h6>N/A</h6>
+                              </div>
+                              <div className="list-items">
+                                <h6>N/A</h6>
+                              </div>
+                              <div className="list-items">
+                                <h6>N/A</h6>
+                              </div>
+                            </div>
                           </Link>
                         </div>
                       </div>
@@ -778,7 +980,21 @@ class Home extends PureComponent {
                             to="/dashboard/economy"
                             className="submenu-list"
                           >
-                            <h4>Universal Basic Education Commission</h4>
+                           
+                            <div className="">
+                              <h5>Universal Basic Education Commission</h5>
+                            </div>
+                            <div className="submenu-list-details d-flex justify-content-around align-items-center">
+                              <div className="list-items">
+                                <h6>N/A</h6>
+                              </div>
+                              <div className="list-items">
+                                <h6>N/A</h6>
+                              </div>
+                              <div className="list-items">
+                                <h6>N/A</h6>
+                              </div>
+                            </div>
                           </Link>
                         </div>
                         <div className="col-sm-6">
@@ -786,7 +1002,21 @@ class Home extends PureComponent {
                             to="/dashboard/economy"
                             className="submenu-list"
                           >
-                            <h4>National Universities Commission</h4>
+                           
+                            <div className="">
+                              <h5>National Universities Commission</h5>
+                            </div>
+                            <div className="submenu-list-details d-flex justify-content-around align-items-center">
+                              <div className="list-items">
+                                <h6>N/A</h6>
+                              </div>
+                              <div className="list-items">
+                                <h6>N/A</h6>
+                              </div>
+                              <div className="list-items">
+                                <h6>N/A</h6>
+                              </div>
+                            </div>
                           </Link>
                         </div>
                       </div>
@@ -972,7 +1202,22 @@ class Home extends PureComponent {
                             to="/dashboard/economy"
                             className="submenu-list"
                           >
-                            <h4>Financial Data</h4>
+                            
+                             
+                            <div className="">
+                              <h5>Financial Data</h5>
+                            </div>
+                            <div className="submenu-list-details d-flex justify-content-around align-items-center">
+                              <div className="list-items">
+                                <h6>N/A</h6>
+                              </div>
+                              <div className="list-items">
+                                <h6>N/A</h6>
+                              </div>
+                              <div className="list-items">
+                                <h6>N/A</h6>
+                              </div>
+                            </div>
                           </Link>
                         </div>
                         <div className="col-sm-4">
@@ -980,7 +1225,21 @@ class Home extends PureComponent {
                             to="/dashboard/economy"
                             className="submenu-list"
                           >
-                            <h4>Crude Oil Exchange Rates</h4>
+                          
+                            <div className="">
+                              <h5>Crude Oil Exchange Rates</h5>
+                            </div>
+                            <div className="submenu-list-details d-flex justify-content-around align-items-center">
+                              <div className="list-items">
+                                <h6>N/A</h6>
+                              </div>
+                              <div className="list-items">
+                                <h6>N/A</h6>
+                              </div>
+                              <div className="list-items">
+                                <h6>N/A</h6>
+                              </div>
+                            </div>
                           </Link>
                         </div>
                         <div className="col-sm-4">
@@ -988,7 +1247,21 @@ class Home extends PureComponent {
                             to="/dashboard/economy"
                             className="submenu-list"
                           >
-                            <h4>MacroEconomic Indicators</h4>
+                           
+                            <div className="">
+                              <h5>MacroEconomic Indicators</h5>
+                            </div>
+                            <div className="submenu-list-details d-flex justify-content-around align-items-center">
+                              <div className="list-items">
+                                <h6>N/A</h6>
+                              </div>
+                              <div className="list-items">
+                                <h6>N/A</h6>
+                              </div>
+                              <div className="list-items">
+                                <h6>N/A</h6>
+                              </div>
+                            </div>
                           </Link>
                         </div>
                       </div>
@@ -1047,7 +1320,21 @@ class Home extends PureComponent {
                             to="/dashboard/economy"
                             className="submenu-list"
                           >
-                            <h4>Nigerian Communications Commission</h4>
+                            
+                            <div className="">
+                              <h5>Nigerian Communications Commission</h5>
+                            </div>
+                            <div className="submenu-list-details d-flex justify-content-around align-items-center">
+                              <div className="list-items">
+                                <h6>N/A</h6>
+                              </div>
+                              <div className="list-items">
+                                <h6>N/A</h6>
+                              </div>
+                              <div className="list-items">
+                                <h6>N/A</h6>
+                              </div>
+                            </div>
                           </Link>
                         </div>
                         <div className="col-sm-6">
@@ -1055,7 +1342,20 @@ class Home extends PureComponent {
                             to="/dashboard/economy"
                             className="submenu-list"
                           >
-                            <h4>National Information Technology Development Agency</h4>
+                            <div className="">
+                              <h5>National Information Technology Development Agency</h5>
+                            </div>
+                            <div className="submenu-list-details d-flex justify-content-around align-items-center">
+                              <div className="list-items">
+                                <h6>N/A</h6>
+                              </div>
+                              <div className="list-items">
+                                <h6>N/A</h6>
+                              </div>
+                              <div className="list-items">
+                                <h6>N/A</h6>
+                              </div>
+                            </div>
                           </Link>
                         </div>
                       </div>
