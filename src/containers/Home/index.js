@@ -566,9 +566,11 @@ class Home extends PureComponent {
                             to="/dashboard/social-services-and-investments"
                             className="submenu-list"
                           >
-                            
                             <div className="">
-                              <h5> National Home Grown School Feeding Programme</h5>
+                              <h5>
+                                {" "}
+                                National Home Grown School Feeding Programme
+                              </h5>
                             </div>
                             <div className="submenu-list-details d-flex justify-content-around align-items-center">
                               <div className="list-items">
@@ -772,7 +774,6 @@ class Home extends PureComponent {
                             to="/dashboard/economy"
                             className="submenu-list"
                           >
-                         
                             <div className="">
                               <h5>Nigerian National Petroleum Corporation</h5>
                             </div>
@@ -794,9 +795,10 @@ class Home extends PureComponent {
                             to="/dashboard/economy"
                             className="submenu-list"
                           >
-                            
                             <div className="">
-                              <h5>Nigerian Electricity Regulatory Commission</h5>
+                              <h5>
+                                Nigerian Electricity Regulatory Commission
+                              </h5>
                             </div>
                             <div className="submenu-list-details d-flex justify-content-around align-items-center">
                               <div className="list-items">
@@ -863,7 +865,6 @@ class Home extends PureComponent {
                             to="/dashboard/economy"
                             className="submenu-list"
                           >
-                            
                             <div className="">
                               <h5>Nigeria Immigration Service</h5>
                             </div>
@@ -885,7 +886,6 @@ class Home extends PureComponent {
                             to="/dashboard/economy"
                             className="submenu-list"
                           >
-                           
                             <div className="">
                               <h5>Federal Airports Authority of Nigeria</h5>
                             </div>
@@ -907,7 +907,6 @@ class Home extends PureComponent {
                             to="/dashboard/economy"
                             className="submenu-list"
                           >
-                           
                             <div className="">
                               <h5>Nigeria Customs Administration</h5>
                             </div>
@@ -980,7 +979,6 @@ class Home extends PureComponent {
                             to="/dashboard/economy"
                             className="submenu-list"
                           >
-                           
                             <div className="">
                               <h5>Universal Basic Education Commission</h5>
                             </div>
@@ -1002,7 +1000,6 @@ class Home extends PureComponent {
                             to="/dashboard/economy"
                             className="submenu-list"
                           >
-                           
                             <div className="">
                               <h5>National Universities Commission</h5>
                             </div>
@@ -1202,8 +1199,6 @@ class Home extends PureComponent {
                             to="/dashboard/economy"
                             className="submenu-list"
                           >
-                            
-                             
                             <div className="">
                               <h5>Financial Data</h5>
                             </div>
@@ -1225,7 +1220,6 @@ class Home extends PureComponent {
                             to="/dashboard/economy"
                             className="submenu-list"
                           >
-                          
                             <div className="">
                               <h5>Crude Oil Exchange Rates</h5>
                             </div>
@@ -1247,7 +1241,6 @@ class Home extends PureComponent {
                             to="/dashboard/economy"
                             className="submenu-list"
                           >
-                           
                             <div className="">
                               <h5>MacroEconomic Indicators</h5>
                             </div>
@@ -1320,7 +1313,6 @@ class Home extends PureComponent {
                             to="/dashboard/economy"
                             className="submenu-list"
                           >
-                            
                             <div className="">
                               <h5>Nigerian Communications Commission</h5>
                             </div>
@@ -1343,7 +1335,10 @@ class Home extends PureComponent {
                             className="submenu-list"
                           >
                             <div className="">
-                              <h5>National Information Technology Development Agency</h5>
+                              <h5>
+                                National Information Technology Development
+                                Agency
+                              </h5>
                             </div>
                             <div className="submenu-list-details d-flex justify-content-around align-items-center">
                               <div className="list-items">
