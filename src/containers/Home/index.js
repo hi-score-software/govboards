@@ -732,6 +732,8 @@ class Home extends PureComponent {
                         className="main-menu_card energy"
                         onClick={() => this.showSubMenu("energy")}
                       >
+
+                      
                         <svg
                           width="69"
                           height="83"
